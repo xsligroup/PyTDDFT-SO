@@ -14,7 +14,7 @@ class Run:
         self.g16root = g16root
         self.NBasis = int(list(filter(None, os.popen("grep 'NBF=' " + self.log).read().split(" ")))[1])
         self.NBsUse = int(list(filter(None, os.popen("grep 'NBFU' " + self.log).read().split(" ")))[1])
-        self.NStates = int(list(filter(None, os.popen("grep 'Excited State' " + self.log).read().split()))[-8][0:2])
+        self.NStates = int(list(filter(None, os.popen("grep 'Excited State' " + self.log).read().split()))[-8][:-1])
         self.NOcc = int(list(filter(None, os.popen("grep 'alpha electrons' " + self.log).read().split()))[0])
         self.NVirt = int(self.NBsUse - self.NOcc)
         self.NTT =  int(self.NBasis * (self.NBasis + 1) / 2)
