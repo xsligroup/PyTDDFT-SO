@@ -2,8 +2,8 @@ import os, sys
 from run import Run
 
 # input files
-rwf = "sr.rwf"     # name of rwf file
-log = "sr.log"     # name of log file
+rwf = "ca2+.rwf"     # name of rwf file
+log = "ca2+.log"     # name of log file
 module = False         # True if module load g16
 nproc = 6          # number of processes
 

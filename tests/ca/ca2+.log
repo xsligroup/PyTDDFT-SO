@@ -2,8 +2,8 @@
  Input=ca2+.com
  Output=ca2+.log
  Initial command:
- /sw/contrib/gaussian/g16/C01_v2/g16/l1.exe "/scr/Gau-303663.inp" -scrdir="/scr/"
- Entering Link 1 = /sw/contrib/gaussian/g16/C01_v2/g16/l1.exe PID=    303664.
+ /sw/contrib/gaussian/g16/C01_v2/g16/l1.exe "/scr/Gau-5404.inp" -scrdir="/scr/"
+ Entering Link 1 = /sw/contrib/gaussian/g16/C01_v2/g16/l1.exe PID=      5405.
   
  Copyright (c) 1988-2019, Gaussian, Inc.  All Rights Reserved.
   
@@ -76,26 +76,26 @@
  
  ******************************************
  Gaussian 16:  EM64L-G16RevC.01  3-Jul-2019
-                16-Nov-2022 
+                17-Nov-2022 
  ******************************************
  %mem=92GB
  %nprocshared=28
  Will use up to   28 processors via shared memory.
  %rwf=ca2+.rwf
  ----------------------------------------------------------------------
- #p td(50-50,nstates=20) IOp(3/33=1) pop=full nosymm pbe1pbe/gen int=dk
- h IOp(8/10=90) ExtraLinks(L319)
+ #p td(50-50,nstates=3) IOp(3/33=1) pop=full nosymm pbe1pbe/gen int=dkh
+  IOp(8/10=90) ExtraLinks(L319)
  ----------------------------------------------------------------------
  1/38=1,172=1/1;
  2/12=2,15=1,17=6,18=5,40=1/2;
  3/5=7,11=9,25=1,30=1,33=1,74=-13,91=4/1,2,3,8,19;
  4//1;
  5/5=2,38=5/2;
- 8/6=1,10=90,108=20/1;
- 9/41=20,42=1,48=2,70=2/14;
+ 8/6=1,10=90,108=3/1;
+ 9/41=3,42=1,48=2,70=2/14;
  6/7=3/1;
  99/5=1,9=1/99;
- Leave Link    1 at Wed Nov 16 17:23:03 2022, MaxMem= 12348030976 cpu:              45.9 elap:               1.7
+ Leave Link    1 at Thu Nov 17 11:34:06 2022, MaxMem= 12348030976 cpu:               1.2 elap:               0.1
  (Enter /sw/contrib/gaussian/g16/C01_v2/g16/l101.exe)
  ----------------
  Ca2+ ano-rcc-vdz
@@ -120,7 +120,7 @@
  NQMom=    0.0000000
  NMagM=    0.0000000
  AtZNuc=  20.0000000
- Leave Link  101 at Wed Nov 16 17:23:03 2022, MaxMem= 12348030976 cpu:               3.2 elap:               0.2
+ Leave Link  101 at Thu Nov 17 11:34:06 2022, MaxMem= 12348030976 cpu:               3.3 elap:               0.2
  (Enter /sw/contrib/gaussian/g16/C01_v2/g16/l202.exe)
                           Input orientation:                          
  ---------------------------------------------------------------------
@@ -134,7 +134,7 @@
  Framework group  OH[O(Ca)]
  Deg. of freedom     0
  Full point group                 OH      NOp  48
- Leave Link  202 at Wed Nov 16 17:23:05 2022, MaxMem= 12348030976 cpu:              11.9 elap:               0.5
+ Leave Link  202 at Thu Nov 17 11:34:06 2022, MaxMem= 12348030976 cpu:               0.9 elap:               0.1
  (Enter /sw/contrib/gaussian/g16/C01_v2/g16/l301.exe)
  General basis read from cards:  (5D, 7F)
                          Coordinates in L301:                         
@@ -562,112 +562,106 @@
  Enter PrismC:  IPart=  0 JobTyp=20 DoJE=F Cont=F.
  PrismC:  IPart=     0 DynPar=F LinDyn=F Incr=           1 UseFst=F UseS4=T ISplat=1.
  PrismC was handed   441000486 working-precision words and     1 shell-pairs
- Enter PrismC:  IPart= 18 JobTyp=20 DoJE=F Cont=F.
  Enter PrismC:  IPart= 10 JobTyp=20 DoJE=F Cont=F.
- PrismC:  IPart=    18 DynPar=F LinDyn=F Incr=           1 UseFst=F UseS4=T ISplat=1.
- PrismC was handed   441000486 working-precision words and     1 shell-pairs
- PrismC:  IPart=    10 DynPar=F LinDyn=F Incr=           1 UseFst=F UseS4=T ISplat=1.
- PrismC was handed   441000486 working-precision words and     1 shell-pairs
- Enter PrismC:  IPart= 12 JobTyp=20 DoJE=F Cont=F.
- PrismC:  IPart=    12 DynPar=F LinDyn=F Incr=           1 UseFst=F UseS4=T ISplat=1.
- PrismC was handed   441000486 working-precision words and     1 shell-pairs
- Enter PrismC:  IPart=  9 JobTyp=20 DoJE=F Cont=F.
- Enter PrismC:  IPart= 19 JobTyp=20 DoJE=F Cont=F.
- PrismC:  IPart=     9 DynPar=F LinDyn=F Incr=           1 UseFst=F UseS4=T ISplat=1.
- PrismC was handed   441000486 working-precision words and     1 shell-pairs
- PrismC:  IPart=    19 DynPar=F LinDyn=F Incr=           1 UseFst=F UseS4=T ISplat=1.
- PrismC was handed   441000486 working-precision words and     1 shell-pairs
- Enter PrismC:  IPart= 14 JobTyp=20 DoJE=F Cont=F.
- PrismC:  IPart=    14 DynPar=F LinDyn=F Incr=           1 UseFst=F UseS4=T ISplat=1.
- Enter PrismC:  IPart= 23 JobTyp=20 DoJE=F Cont=F.
- PrismC was handed   441000486 working-precision words and     1 shell-pairs
- PrismC:  IPart=    23 DynPar=F LinDyn=F Incr=           1 UseFst=F UseS4=T ISplat=1.
- PrismC was handed   441000486 working-precision words and     1 shell-pairs
- Enter PrismC:  IPart=  7 JobTyp=20 DoJE=F Cont=F.
  Enter PrismC:  IPart= 22 JobTyp=20 DoJE=F Cont=F.
- Enter PrismC:  IPart= 13 JobTyp=20 DoJE=F Cont=F.
- PrismC:  IPart=    22 DynPar=F LinDyn=F Incr=           1 UseFst=F UseS4=T ISplat=1.
- PrismC was handed   441000486 working-precision words and     1 shell-pairs
- PrismC:  IPart=     7 DynPar=F LinDyn=F Incr=           1 UseFst=F UseS4=T ISplat=1.
- PrismC was handed   441000486 working-precision words and     1 shell-pairs
- Enter PrismC:  IPart=  4 JobTyp=20 DoJE=F Cont=F.
- Enter PrismC:  IPart= 16 JobTyp=20 DoJE=F Cont=F.
- PrismC:  IPart=    13 DynPar=F LinDyn=F Incr=           1 UseFst=F UseS4=T ISplat=1.
- PrismC was handed   441000486 working-precision words and     1 shell-pairs
- Enter PrismC:  IPart= 15 JobTyp=20 DoJE=F Cont=F.
- PrismC:  IPart=     4 DynPar=F LinDyn=F Incr=           1 UseFst=F UseS4=T ISplat=1.
- PrismC was handed   441000486 working-precision words and     1 shell-pairs
- PrismC:  IPart=    16 DynPar=F LinDyn=F Incr=           1 UseFst=F UseS4=T ISplat=1.
+ PrismC:  IPart=    10 DynPar=F LinDyn=F Incr=           1 UseFst=F UseS4=T ISplat=1.
  Enter PrismC:  IPart=  6 JobTyp=20 DoJE=F Cont=F.
  PrismC was handed   441000486 working-precision words and     1 shell-pairs
- PrismC:  IPart=    15 DynPar=F LinDyn=F Incr=           1 UseFst=F UseS4=T ISplat=1.
- PrismC was handed   441000486 working-precision words and     1 shell-pairs
+ PrismC:  IPart=    22 DynPar=F LinDyn=F Incr=           1 UseFst=F UseS4=T ISplat=1.
  PrismC:  IPart=     6 DynPar=F LinDyn=F Incr=           1 UseFst=F UseS4=T ISplat=1.
  PrismC was handed   441000486 working-precision words and     1 shell-pairs
- Enter PrismC:  IPart= 17 JobTyp=20 DoJE=F Cont=F.
- Enter PrismC:  IPart= 25 JobTyp=20 DoJE=F Cont=F.
- Enter PrismC:  IPart= 20 JobTyp=20 DoJE=F Cont=F.
- Enter PrismC:  IPart=  2 JobTyp=20 DoJE=F Cont=F.
- PrismC:  IPart=    25 DynPar=F LinDyn=F Incr=           1 UseFst=F UseS4=T ISplat=1.
  PrismC was handed   441000486 working-precision words and     1 shell-pairs
- Enter PrismC:  IPart=  3 JobTyp=20 DoJE=F Cont=F.
- PrismC:  IPart=     2 DynPar=F LinDyn=F Incr=           1 UseFst=F UseS4=T ISplat=1.
- Enter PrismC:  IPart=  8 JobTyp=20 DoJE=F Cont=F.
- PrismC was handed   441000486 working-precision words and     1 shell-pairs
- Enter PrismC:  IPart= 21 JobTyp=20 DoJE=F Cont=F.
- PrismC:  IPart=    20 DynPar=F LinDyn=F Incr=           1 UseFst=F UseS4=T ISplat=1.
- PrismC was handed   441000486 working-precision words and     1 shell-pairs
- PrismC:  IPart=     3 DynPar=F LinDyn=F Incr=           1 UseFst=F UseS4=T ISplat=1.
- PrismC was handed   441000486 working-precision words and     1 shell-pairs
- PrismC:  IPart=    17 DynPar=F LinDyn=F Incr=           1 UseFst=F UseS4=T ISplat=1.
- PrismC was handed   441000486 working-precision words and     1 shell-pairs
- Enter PrismC:  IPart= 27 JobTyp=20 DoJE=F Cont=F.
- Enter PrismC:  IPart=  1 JobTyp=20 DoJE=F Cont=F.
- PrismC:  IPart=     8 DynPar=F LinDyn=F Incr=           1 UseFst=F UseS4=T ISplat=1.
- PrismC was handed   441000486 working-precision words and     1 shell-pairs
- PrismC:  IPart=    21 DynPar=F LinDyn=F Incr=           1 UseFst=F UseS4=T ISplat=1.
- PrismC was handed   441000486 working-precision words and     1 shell-pairs
- PrismC:  IPart=     1 DynPar=F LinDyn=F Incr=           1 UseFst=F UseS4=T ISplat=1.
- PrismC was handed   441000486 working-precision words and     1 shell-pairs
- PrismC:  IPart=    27 DynPar=F LinDyn=F Incr=           1 UseFst=F UseS4=T ISplat=1.
- PrismC was handed   441000486 working-precision words and     1 shell-pairs
- Enter PrismC:  IPart= 24 JobTyp=20 DoJE=F Cont=F.
+ Enter PrismC:  IPart=  9 JobTyp=20 DoJE=F Cont=F.
+ Enter PrismC:  IPart= 13 JobTyp=20 DoJE=F Cont=F.
  Enter PrismC:  IPart= 26 JobTyp=20 DoJE=F Cont=F.
- Enter PrismC:  IPart= 11 JobTyp=20 DoJE=F Cont=F.
- PrismC:  IPart=    24 DynPar=F LinDyn=F Incr=           1 UseFst=F UseS4=T ISplat=1.
- Enter PrismC:  IPart=  5 JobTyp=20 DoJE=F Cont=F.
- PrismC:  IPart=    11 DynPar=F LinDyn=F Incr=           1 UseFst=F UseS4=T ISplat=1.
- PrismC:  IPart=     5 DynPar=F LinDyn=F Incr=           1 UseFst=F UseS4=T ISplat=1.
- PrismC was handed   441000486 working-precision words and     1 shell-pairs
+ PrismC:  IPart=     9 DynPar=F LinDyn=F Incr=           1 UseFst=F UseS4=T ISplat=1.
+ Enter PrismC:  IPart= 16 JobTyp=20 DoJE=F Cont=F.
+ PrismC:  IPart=    13 DynPar=F LinDyn=F Incr=           1 UseFst=F UseS4=T ISplat=1.
+ PrismC:  IPart=    16 DynPar=F LinDyn=F Incr=           1 UseFst=F UseS4=T ISplat=1.
  PrismC:  IPart=    26 DynPar=F LinDyn=F Incr=           1 UseFst=F UseS4=T ISplat=1.
  PrismC was handed   441000486 working-precision words and     1 shell-pairs
  PrismC was handed   441000486 working-precision words and     1 shell-pairs
  PrismC was handed   441000486 working-precision words and     1 shell-pairs
- IPart= 12 NShTot=           0 NShNF=           0 NShFF=           0 MinMC=    1394
+ PrismC was handed   441000486 working-precision words and     1 shell-pairs
+ Enter PrismC:  IPart=  1 JobTyp=20 DoJE=F Cont=F.
+ PrismC:  IPart=     1 DynPar=F LinDyn=F Incr=           1 UseFst=F UseS4=T ISplat=1.
+ PrismC was handed   441000486 working-precision words and     1 shell-pairs
+ Enter PrismC:  IPart= 11 JobTyp=20 DoJE=F Cont=F.
+ Enter PrismC:  IPart= 21 JobTyp=20 DoJE=F Cont=F.
+ Enter PrismC:  IPart=  8 JobTyp=20 DoJE=F Cont=F.
+ Enter PrismC:  IPart= 17 JobTyp=20 DoJE=F Cont=F.
+ PrismC:  IPart=    11 DynPar=F LinDyn=F Incr=           1 UseFst=F UseS4=T ISplat=1.
+ Enter PrismC:  IPart= 19 JobTyp=20 DoJE=F Cont=F.
+ PrismC:  IPart=    17 DynPar=F LinDyn=F Incr=           1 UseFst=F UseS4=T ISplat=1.
+ PrismC:  IPart=    19 DynPar=F LinDyn=F Incr=           1 UseFst=F UseS4=T ISplat=1.
+ Enter PrismC:  IPart= 23 JobTyp=20 DoJE=F Cont=F.
+ PrismC:  IPart=    21 DynPar=F LinDyn=F Incr=           1 UseFst=F UseS4=T ISplat=1.
+ Enter PrismC:  IPart=  7 JobTyp=20 DoJE=F Cont=F.
+ PrismC:  IPart=     8 DynPar=F LinDyn=F Incr=           1 UseFst=F UseS4=T ISplat=1.
+ PrismC:  IPart=    23 DynPar=F LinDyn=F Incr=           1 UseFst=F UseS4=T ISplat=1.
+ PrismC:  IPart=     7 DynPar=F LinDyn=F Incr=           1 UseFst=F UseS4=T ISplat=1.
+ PrismC was handed   441000486 working-precision words and     1 shell-pairs
+ PrismC was handed   441000486 working-precision words and     1 shell-pairs
+ PrismC was handed   441000486 working-precision words and     1 shell-pairs
+ PrismC was handed   441000486 working-precision words and     1 shell-pairs
+ PrismC was handed   441000486 working-precision words and     1 shell-pairs
+ PrismC was handed   441000486 working-precision words and     1 shell-pairs
+ Enter PrismC:  IPart= 14 JobTyp=20 DoJE=F Cont=F.
+ PrismC was handed   441000486 working-precision words and     1 shell-pairs
+ PrismC:  IPart=    14 DynPar=F LinDyn=F Incr=           1 UseFst=F UseS4=T ISplat=1.
+ PrismC was handed   441000486 working-precision words and     1 shell-pairs
+ Enter PrismC:  IPart=  2 JobTyp=20 DoJE=F Cont=F.
+ Enter PrismC:  IPart= 20 JobTyp=20 DoJE=F Cont=F.
+ PrismC:  IPart=     2 DynPar=F LinDyn=F Incr=           1 UseFst=F UseS4=T ISplat=1.
+ PrismC was handed   441000486 working-precision words and     1 shell-pairs
+ PrismC:  IPart=    20 DynPar=F LinDyn=F Incr=           1 UseFst=F UseS4=T ISplat=1.
+ PrismC was handed   441000486 working-precision words and     1 shell-pairs
+ Enter PrismC:  IPart= 12 JobTyp=20 DoJE=F Cont=F.
+ Enter PrismC:  IPart= 25 JobTyp=20 DoJE=F Cont=F.
+ PrismC:  IPart=    12 DynPar=F LinDyn=F Incr=           1 UseFst=F UseS4=T ISplat=1.
+ PrismC was handed   441000486 working-precision words and     1 shell-pairs
+ PrismC:  IPart=    25 DynPar=F LinDyn=F Incr=           1 UseFst=F UseS4=T ISplat=1.
+ PrismC was handed   441000486 working-precision words and     1 shell-pairs
+ Enter PrismC:  IPart=  4 JobTyp=20 DoJE=F Cont=F.
+ Enter PrismC:  IPart= 15 JobTyp=20 DoJE=F Cont=F.
+ PrismC:  IPart=     4 DynPar=F LinDyn=F Incr=           1 UseFst=F UseS4=T ISplat=1.
+ Enter PrismC:  IPart= 18 JobTyp=20 DoJE=F Cont=F.
+ PrismC was handed   441000486 working-precision words and     1 shell-pairs
+ Enter PrismC:  IPart= 27 JobTyp=20 DoJE=F Cont=F.
+ Enter PrismC:  IPart=  3 JobTyp=20 DoJE=F Cont=F.
+ Enter PrismC:  IPart=  5 JobTyp=20 DoJE=F Cont=F.
+ PrismC:  IPart=    15 DynPar=F LinDyn=F Incr=           1 UseFst=F UseS4=T ISplat=1.
+ PrismC was handed   441000486 working-precision words and     1 shell-pairs
+ Enter PrismC:  IPart= 24 JobTyp=20 DoJE=F Cont=F.
+ PrismC:  IPart=     5 DynPar=F LinDyn=F Incr=           1 UseFst=F UseS4=T ISplat=1.
+ PrismC:  IPart=    24 DynPar=F LinDyn=F Incr=           1 UseFst=F UseS4=T ISplat=1.
+ PrismC was handed   441000486 working-precision words and     1 shell-pairs
+ PrismC:  IPart=    27 DynPar=F LinDyn=F Incr=           1 UseFst=F UseS4=T ISplat=1.
+ PrismC was handed   441000486 working-precision words and     1 shell-pairs
+ PrismC was handed   441000486 working-precision words and     1 shell-pairs
+ PrismC:  IPart=    18 DynPar=F LinDyn=F Incr=           1 UseFst=F UseS4=T ISplat=1.
+ PrismC was handed   441000486 working-precision words and     1 shell-pairs
+ PrismC:  IPart=     3 DynPar=F LinDyn=F Incr=           1 UseFst=F UseS4=T ISplat=1.
+ PrismC was handed   441000486 working-precision words and     1 shell-pairs
+ IPart=  6 NShTot=           0 NShNF=           0 NShFF=           0 MinMC=    1394
            NShCPU=           0 NBCPU=           0 AvBCPU=         0.0
            NShGPU=           0 NBGPU=           0 AvBGPU=         0.0
- IPart=  0 NShTot=           1 NShNF=           1 NShFF=           0 MinMC=    1394
-           NShCPU=           1 NBCPU=           1 AvBCPU=         1.0
-           NShGPU=           0 NBGPU=           0 AvBGPU=         0.0
- IPart= 14 NShTot=           0 NShNF=           0 NShFF=           0 MinMC=    1394
+ IPart=  9 NShTot=           0 NShNF=           0 NShFF=           0 MinMC=    1394
            NShCPU=           0 NBCPU=           0 AvBCPU=         0.0
            NShGPU=           0 NBGPU=           0 AvBGPU=         0.0
- IPart=  7 NShTot=           0 NShNF=           0 NShFF=           0 MinMC=    1394
+ IPart= 10 NShTot=           0 NShNF=           0 NShFF=           0 MinMC=    1394
            NShCPU=           0 NBCPU=           0 AvBCPU=         0.0
            NShGPU=           0 NBGPU=           0 AvBGPU=         0.0
- IPart= 15 NShTot=           0 NShNF=           0 NShFF=           0 MinMC=    1394
+ IPart= 13 NShTot=           0 NShNF=           0 NShFF=           0 MinMC=    1394
            NShCPU=           0 NBCPU=           0 AvBCPU=         0.0
            NShGPU=           0 NBGPU=           0 AvBGPU=         0.0
- IPart=  4 NShTot=           0 NShNF=           0 NShFF=           0 MinMC=    1394
-           NShCPU=           0 NBCPU=           0 AvBCPU=         0.0
-           NShGPU=           0 NBGPU=           0 AvBGPU=         0.0
- IPart= 16 NShTot=           0 NShNF=           0 NShFF=           0 MinMC=    1394
+ IPart=  1 NShTot=           0 NShNF=           0 NShFF=           0 MinMC=    1394
            NShCPU=           0 NBCPU=           0 AvBCPU=         0.0
            NShGPU=           0 NBGPU=           0 AvBGPU=         0.0
  IPart= 23 NShTot=           0 NShNF=           0 NShFF=           0 MinMC=    1394
            NShCPU=           0 NBCPU=           0 AvBCPU=         0.0
            NShGPU=           0 NBGPU=           0 AvBGPU=         0.0
- IPart= 13 NShTot=           0 NShNF=           0 NShFF=           0 MinMC=    1394
+ IPart= 19 NShTot=           0 NShNF=           0 NShFF=           0 MinMC=    1394
            NShCPU=           0 NBCPU=           0 AvBCPU=         0.0
            NShGPU=           0 NBGPU=           0 AvBGPU=         0.0
  IPart=  8 NShTot=           0 NShNF=           0 NShFF=           0 MinMC=    1394
@@ -676,31 +670,28 @@
  IPart= 17 NShTot=           0 NShNF=           0 NShFF=           0 MinMC=    1394
            NShCPU=           0 NBCPU=           0 AvBCPU=         0.0
            NShGPU=           0 NBGPU=           0 AvBGPU=         0.0
- IPart=  3 NShTot=           0 NShNF=           0 NShFF=           0 MinMC=    1394
+ IPart= 11 NShTot=           0 NShNF=           0 NShFF=           0 MinMC=    1394
            NShCPU=           0 NBCPU=           0 AvBCPU=         0.0
            NShGPU=           0 NBGPU=           0 AvBGPU=         0.0
- IPart= 25 NShTot=           0 NShNF=           0 NShFF=           0 MinMC=    1394
+ IPart= 14 NShTot=           0 NShNF=           0 NShFF=           0 MinMC=    1394
            NShCPU=           0 NBCPU=           0 AvBCPU=         0.0
            NShGPU=           0 NBGPU=           0 AvBGPU=         0.0
- IPart=  2 NShTot=           0 NShNF=           0 NShFF=           0 MinMC=    1394
+ IPart=  7 NShTot=           0 NShNF=           0 NShFF=           0 MinMC=    1394
            NShCPU=           0 NBCPU=           0 AvBCPU=         0.0
            NShGPU=           0 NBGPU=           0 AvBGPU=         0.0
  IPart= 21 NShTot=           0 NShNF=           0 NShFF=           0 MinMC=    1394
            NShCPU=           0 NBCPU=           0 AvBCPU=         0.0
            NShGPU=           0 NBGPU=           0 AvBGPU=         0.0
- IPart= 11 NShTot=           0 NShNF=           0 NShFF=           0 MinMC=    1394
+ IPart=  0 NShTot=           1 NShNF=           1 NShFF=           0 MinMC=    1394
+           NShCPU=           1 NBCPU=           1 AvBCPU=         1.0
+           NShGPU=           0 NBGPU=           0 AvBGPU=         0.0
+ IPart=  2 NShTot=           0 NShNF=           0 NShFF=           0 MinMC=    1394
            NShCPU=           0 NBCPU=           0 AvBCPU=         0.0
            NShGPU=           0 NBGPU=           0 AvBGPU=         0.0
- IPart=  6 NShTot=           0 NShNF=           0 NShFF=           0 MinMC=    1394
+ IPart= 12 NShTot=           0 NShNF=           0 NShFF=           0 MinMC=    1394
            NShCPU=           0 NBCPU=           0 AvBCPU=         0.0
            NShGPU=           0 NBGPU=           0 AvBGPU=         0.0
- IPart=  1 NShTot=           0 NShNF=           0 NShFF=           0 MinMC=    1394
-           NShCPU=           0 NBCPU=           0 AvBCPU=         0.0
-           NShGPU=           0 NBGPU=           0 AvBGPU=         0.0
- IPart=  9 NShTot=           0 NShNF=           0 NShFF=           0 MinMC=    1394
-           NShCPU=           0 NBCPU=           0 AvBCPU=         0.0
-           NShGPU=           0 NBGPU=           0 AvBGPU=         0.0
- IPart= 20 NShTot=           0 NShNF=           0 NShFF=           0 MinMC=    1394
+ IPart= 15 NShTot=           0 NShNF=           0 NShFF=           0 MinMC=    1394
            NShCPU=           0 NBCPU=           0 AvBCPU=         0.0
            NShGPU=           0 NBGPU=           0 AvBGPU=         0.0
  IPart= 24 NShTot=           0 NShNF=           0 NShFF=           0 MinMC=    1394
@@ -709,27 +700,36 @@
  IPart= 27 NShTot=           0 NShNF=           0 NShFF=           0 MinMC=    1394
            NShCPU=           0 NBCPU=           0 AvBCPU=         0.0
            NShGPU=           0 NBGPU=           0 AvBGPU=         0.0
- IPart= 26 NShTot=           0 NShNF=           0 NShFF=           0 MinMC=    1394
+ IPart=  3 NShTot=           0 NShNF=           0 NShFF=           0 MinMC=    1394
            NShCPU=           0 NBCPU=           0 AvBCPU=         0.0
            NShGPU=           0 NBGPU=           0 AvBGPU=         0.0
  IPart=  5 NShTot=           0 NShNF=           0 NShFF=           0 MinMC=    1394
            NShCPU=           0 NBCPU=           0 AvBCPU=         0.0
            NShGPU=           0 NBGPU=           0 AvBGPU=         0.0
- IPart= 19 NShTot=           0 NShNF=           0 NShFF=           0 MinMC=    1394
+ IPart=  4 NShTot=           0 NShNF=           0 NShFF=           0 MinMC=    1394
            NShCPU=           0 NBCPU=           0 AvBCPU=         0.0
            NShGPU=           0 NBGPU=           0 AvBGPU=         0.0
- IPart= 22 NShTot=           0 NShNF=           0 NShFF=           0 MinMC=    1394
+ IPart= 26 NShTot=           0 NShNF=           0 NShFF=           0 MinMC=    1394
+           NShCPU=           0 NBCPU=           0 AvBCPU=         0.0
+           NShGPU=           0 NBGPU=           0 AvBGPU=         0.0
+ IPart= 25 NShTot=           0 NShNF=           0 NShFF=           0 MinMC=    1394
            NShCPU=           0 NBCPU=           0 AvBCPU=         0.0
            NShGPU=           0 NBGPU=           0 AvBGPU=         0.0
  IPart= 18 NShTot=           0 NShNF=           0 NShFF=           0 MinMC=    1394
            NShCPU=           0 NBCPU=           0 AvBCPU=         0.0
            NShGPU=           0 NBGPU=           0 AvBGPU=         0.0
- IPart= 10 NShTot=           0 NShNF=           0 NShFF=           0 MinMC=    1394
+ IPart= 22 NShTot=           0 NShNF=           0 NShFF=           0 MinMC=    1394
+           NShCPU=           0 NBCPU=           0 AvBCPU=         0.0
+           NShGPU=           0 NBGPU=           0 AvBGPU=         0.0
+ IPart= 16 NShTot=           0 NShNF=           0 NShFF=           0 MinMC=    1394
+           NShCPU=           0 NBCPU=           0 AvBCPU=         0.0
+           NShGPU=           0 NBGPU=           0 AvBGPU=         0.0
+ IPart= 20 NShTot=           0 NShNF=           0 NShFF=           0 MinMC=    1394
            NShCPU=           0 NBCPU=           0 AvBCPU=         0.0
            NShGPU=           0 NBGPU=           0 AvBGPU=         0.0
  CoulSu:  NxtVal=             29 LenVP=      441000487 MinMC=    1394.
  Finite nuclear repulsion energy         0.0000000000.
- Leave Link  301 at Wed Nov 16 17:23:05 2022, MaxMem= 12348030976 cpu:              10.6 elap:               0.5
+ Leave Link  301 at Thu Nov 17 11:34:07 2022, MaxMem= 12348030976 cpu:               5.8 elap:               0.3
  (Enter /sw/contrib/gaussian/g16/C01_v2/g16/l302.exe)
  Using DK2 one-electron Hamiltonian.
  NPDir=0 NMtPBC=     1 NCelOv=     1 NCel=       1 NClECP=     1 NCelD=      1
@@ -754,51 +754,51 @@
  PRISM was handed   440947400 working-precision words and    45 shell-pairs
  PRISM was handed   440947400 working-precision words and    45 shell-pairs
  PRISM was handed   440947400 working-precision words and    45 shell-pairs
- PRISM was handed   440947400 working-precision words and    45 shell-pairs
- PRISM was handed   440947400 working-precision words and    45 shell-pairs
- PRISM was handed   440947400 working-precision words and    45 shell-pairs
- PRISM was handed   440947400 working-precision words and    45 shell-pairs
- PRISM was handed   440947400 working-precision words and    45 shell-pairs
- PRISM was handed   440947400 working-precision words and    45 shell-pairs
- PRISM was handed   440947400 working-precision words and    45 shell-pairs
- PRISM was handed   440947400 working-precision words and    45 shell-pairs
- PRISM was handed   440947400 working-precision words and    45 shell-pairs
- PRISM was handed   440947400 working-precision words and    45 shell-pairs
- PRISM was handed   440947400 working-precision words and    45 shell-pairs
- PRISM was handed   440947400 working-precision words and    45 shell-pairs
- PRISM was handed   440947400 working-precision words and    45 shell-pairs
- PRISM was handed   440947400 working-precision words and    45 shell-pairs
- PRISM was handed   440947400 working-precision words and    45 shell-pairs
- PRISM was handed   440947400 working-precision words and    45 shell-pairs
- PRISM was handed   440947400 working-precision words and    45 shell-pairs
- IPart= 26 NShTot=           0 NBatch=           0 AvBLen=         0.0
- IPart= 18 NShTot=           0 NBatch=           0 AvBLen=         0.0
- IPart= 27 NShTot=           0 NBatch=           0 AvBLen=         0.0
- IPart= 24 NShTot=           0 NBatch=           0 AvBLen=         0.0
- IPart=  8 NShTot=           0 NBatch=           0 AvBLen=         0.0
- IPart= 23 NShTot=           0 NBatch=           0 AvBLen=         0.0
- IPart= 16 NShTot=           0 NBatch=           0 AvBLen=         0.0
- IPart= 22 NShTot=           0 NBatch=           0 AvBLen=         0.0
- IPart=  6 NShTot=           0 NBatch=           0 AvBLen=         0.0
- IPart=  7 NShTot=           0 NBatch=           0 AvBLen=         0.0
- IPart= 13 NShTot=           0 NBatch=           0 AvBLen=         0.0
- IPart=  9 NShTot=           0 NBatch=           0 AvBLen=         0.0
- IPart= 14 NShTot=           0 NBatch=           0 AvBLen=         0.0
- IPart= 25 NShTot=           0 NBatch=           0 AvBLen=         0.0
- IPart=  5 NShTot=           0 NBatch=           0 AvBLen=         0.0
- IPart= 12 NShTot=           0 NBatch=           0 AvBLen=         0.0
- IPart= 20 NShTot=           0 NBatch=           0 AvBLen=         0.0
- IPart= 11 NShTot=           0 NBatch=           0 AvBLen=         0.0
- IPart= 19 NShTot=           0 NBatch=           0 AvBLen=         0.0
  IPart= 21 NShTot=           0 NBatch=           0 AvBLen=         0.0
- IPart= 17 NShTot=           0 NBatch=           0 AvBLen=         0.0
- IPart= 10 NShTot=           0 NBatch=           0 AvBLen=         0.0
+ IPart=  8 NShTot=           0 NBatch=           0 AvBLen=         0.0
+ IPart= 24 NShTot=           0 NBatch=           0 AvBLen=         0.0
+ IPart= 16 NShTot=           0 NBatch=           0 AvBLen=         0.0
+ IPart= 19 NShTot=           0 NBatch=           0 AvBLen=         0.0
+ IPart=  5 NShTot=           0 NBatch=           0 AvBLen=         0.0
+ IPart=  9 NShTot=           0 NBatch=           0 AvBLen=         0.0
+ PRISM was handed   440947400 working-precision words and    45 shell-pairs
  IPart= 15 NShTot=           0 NBatch=           0 AvBLen=         0.0
+ PRISM was handed   440947400 working-precision words and    45 shell-pairs
+ PRISM was handed   440947400 working-precision words and    45 shell-pairs
+ PRISM was handed   440947400 working-precision words and    45 shell-pairs
+ IPart= 10 NShTot=           0 NBatch=           0 AvBLen=         0.0
+ IPart=  7 NShTot=           0 NBatch=           0 AvBLen=         0.0
+ PRISM was handed   440947400 working-precision words and    45 shell-pairs
+ IPart=  6 NShTot=           0 NBatch=           0 AvBLen=         0.0
  IPart=  4 NShTot=           1 NBatch=           1 AvBLen=         1.0
- IPart=  3 NShTot=           1 NBatch=           1 AvBLen=         1.0
+ PRISM was handed   440947400 working-precision words and    45 shell-pairs
+ PRISM was handed   440947400 working-precision words and    45 shell-pairs
+ PRISM was handed   440947400 working-precision words and    45 shell-pairs
+ PRISM was handed   440947400 working-precision words and    45 shell-pairs
+ PRISM was handed   440947400 working-precision words and    45 shell-pairs
+ PRISM was handed   440947400 working-precision words and    45 shell-pairs
+ PRISM was handed   440947400 working-precision words and    45 shell-pairs
+ IPart= 17 NShTot=           0 NBatch=           0 AvBLen=         0.0
+ PRISM was handed   440947400 working-precision words and    45 shell-pairs
+ PRISM was handed   440947400 working-precision words and    45 shell-pairs
+ PRISM was handed   440947400 working-precision words and    45 shell-pairs
+ PRISM was handed   440947400 working-precision words and    45 shell-pairs
  IPart=  2 NShTot=           5 NBatch=           5 AvBLen=         1.0
+ PRISM was handed   440947400 working-precision words and    45 shell-pairs
  IPart=  1 NShTot=          13 NBatch=          13 AvBLen=         1.0
+ IPart= 11 NShTot=           0 NBatch=           0 AvBLen=         0.0
+ IPart= 27 NShTot=           0 NBatch=           0 AvBLen=         0.0
+ IPart=  3 NShTot=           1 NBatch=           1 AvBLen=         1.0
+ IPart= 12 NShTot=           0 NBatch=           0 AvBLen=         0.0
+ IPart= 14 NShTot=           0 NBatch=           0 AvBLen=         0.0
+ IPart= 23 NShTot=           0 NBatch=           0 AvBLen=         0.0
+ IPart= 25 NShTot=           0 NBatch=           0 AvBLen=         0.0
+ IPart= 13 NShTot=           0 NBatch=           0 AvBLen=         0.0
+ IPart= 20 NShTot=           0 NBatch=           0 AvBLen=         0.0
+ IPart= 26 NShTot=           0 NBatch=           0 AvBLen=         0.0
+ IPart= 22 NShTot=           0 NBatch=           0 AvBLen=         0.0
  IPart=  0 NShTot=          25 NBatch=          25 AvBLen=         1.0
+ IPart= 18 NShTot=           0 NBatch=           0 AvBLen=         0.0
  PrSmSu:  NxtVal=             29.
  *** Overlap *** 
                 1             2             3             4             5 
@@ -904,103 +904,118 @@
  CoulSu:  IncTry=  1024 NBBP=             45 NTPThr=   100 NPartT=   28 Incr=           1 LDynOK=F GPUOK=F.
  CoulSu:  NPrtUS=  28 ThrOK=T IAlg=1 LenDen=         236 LWGrdD=           0 DoCopy=T ISkipM=0
           DoSpLW=F IThBeg=    0 IThEnd=   27.
- Enter PrismC:  IPart= 26 JobTyp=20 DoJE=T Cont=T.
- Enter PrismC:  IPart= 16 JobTyp=20 DoJE=T Cont=T.
- Enter PrismC:  IPart= 13 JobTyp=20 DoJE=T Cont=T.
- Enter PrismC:  IPart= 15 JobTyp=20 DoJE=T Cont=T.
- Enter PrismC:  IPart= 21 JobTyp=20 DoJE=T Cont=T.
- Enter PrismC:  IPart= 11 JobTyp=20 DoJE=T Cont=T.
- Enter PrismC:  IPart= 24 JobTyp=20 DoJE=T Cont=T.
- Enter PrismC:  IPart=  9 JobTyp=20 DoJE=T Cont=T.
- Enter PrismC:  IPart= 19 JobTyp=20 DoJE=T Cont=T.
- Enter PrismC:  IPart= 25 JobTyp=20 DoJE=T Cont=T.
- Enter PrismC:  IPart=  2 JobTyp=20 DoJE=T Cont=T.
- Enter PrismC:  IPart= 18 JobTyp=20 DoJE=T Cont=T.
- PrismC:  IPart=    16 DynPar=F LinDyn=F Incr=           1 UseFst=F UseS4=T ISplat=2.
- PrismC was handed   440947295 working-precision words and    45 shell-pairs
- PrismC:  IPart=    21 DynPar=F LinDyn=F Incr=           1 UseFst=F UseS4=T ISplat=2.
- PrismC was handed   440947295 working-precision words and    45 shell-pairs
- PrismC:  IPart=    18 DynPar=F LinDyn=F Incr=           1 UseFst=F UseS4=T ISplat=2.
- PrismC was handed   440947295 working-precision words and    45 shell-pairs
- Enter PrismC:  IPart= 12 JobTyp=20 DoJE=T Cont=T.
- PrismC:  IPart=    12 DynPar=F LinDyn=F Incr=           1 UseFst=F UseS4=T ISplat=2.
- PrismC was handed   440947295 working-precision words and    45 shell-pairs
- Enter PrismC:  IPart=  4 JobTyp=20 DoJE=T Cont=T.
- PrismC:  IPart=     4 DynPar=F LinDyn=F Incr=           1 UseFst=F UseS4=T ISplat=2.
- PrismC was handed   440947295 working-precision words and    45 shell-pairs
- Enter PrismC:  IPart= 10 JobTyp=20 DoJE=T Cont=T.
- PrismC:  IPart=    10 DynPar=F LinDyn=F Incr=           1 UseFst=F UseS4=T ISplat=2.
- PrismC was handed   440947295 working-precision words and    45 shell-pairs
- Enter PrismC:  IPart= 27 JobTyp=20 DoJE=T Cont=T.
- PrismC:  IPart=    27 DynPar=F LinDyn=F Incr=           1 UseFst=F UseS4=T ISplat=2.
- PrismC was handed   440947295 working-precision words and    45 shell-pairs
- Enter PrismC:  IPart=  7 JobTyp=20 DoJE=T Cont=T.
- PrismC:  IPart=     7 DynPar=F LinDyn=F Incr=           1 UseFst=F UseS4=T ISplat=2.
- PrismC was handed   440947295 working-precision words and    45 shell-pairs
- Enter PrismC:  IPart= 14 JobTyp=20 DoJE=T Cont=T.
- PrismC:  IPart=    14 DynPar=F LinDyn=F Incr=           1 UseFst=F UseS4=T ISplat=2.
- PrismC was handed   440947295 working-precision words and    45 shell-pairs
- Enter PrismC:  IPart=  3 JobTyp=20 DoJE=T Cont=T.
- PrismC:  IPart=     3 DynPar=F LinDyn=F Incr=           1 UseFst=F UseS4=T ISplat=2.
- PrismC was handed   440947295 working-precision words and    45 shell-pairs
- Enter PrismC:  IPart=  5 JobTyp=20 DoJE=T Cont=T.
- PrismC:  IPart=     5 DynPar=F LinDyn=F Incr=           1 UseFst=F UseS4=T ISplat=2.
- PrismC was handed   440947295 working-precision words and    45 shell-pairs
- Enter PrismC:  IPart= 20 JobTyp=20 DoJE=T Cont=T.
- PrismC:  IPart=    20 DynPar=F LinDyn=F Incr=           1 UseFst=F UseS4=T ISplat=2.
- PrismC was handed   440947295 working-precision words and    45 shell-pairs
- PrismC:  IPart=     9 DynPar=F LinDyn=F Incr=           1 UseFst=F UseS4=T ISplat=2.
- PrismC was handed   440947295 working-precision words and    45 shell-pairs
- Enter PrismC:  IPart=  6 JobTyp=20 DoJE=T Cont=T.
- PrismC:  IPart=     6 DynPar=F LinDyn=F Incr=           1 UseFst=F UseS4=T ISplat=2.
- PrismC was handed   440947295 working-precision words and    45 shell-pairs
- Enter PrismC:  IPart=  8 JobTyp=20 DoJE=T Cont=T.
- PrismC:  IPart=     8 DynPar=F LinDyn=F Incr=           1 UseFst=F UseS4=T ISplat=2.
- PrismC was handed   440947295 working-precision words and    45 shell-pairs
- Enter PrismC:  IPart= 23 JobTyp=20 DoJE=T Cont=T.
- PrismC:  IPart=    23 DynPar=F LinDyn=F Incr=           1 UseFst=F UseS4=T ISplat=2.
- PrismC was handed   440947295 working-precision words and    45 shell-pairs
- PrismC:  IPart=    19 DynPar=F LinDyn=F Incr=           1 UseFst=F UseS4=T ISplat=2.
- PrismC was handed   440947295 working-precision words and    45 shell-pairs
- Enter PrismC:  IPart= 17 JobTyp=20 DoJE=T Cont=T.
- PrismC:  IPart=    17 DynPar=F LinDyn=F Incr=           1 UseFst=F UseS4=T ISplat=2.
- PrismC was handed   440947295 working-precision words and    45 shell-pairs
- PrismC:  IPart=    26 DynPar=F LinDyn=F Incr=           1 UseFst=F UseS4=T ISplat=2.
- PrismC was handed   440947295 working-precision words and    45 shell-pairs
- PrismC:  IPart=    24 DynPar=F LinDyn=F Incr=           1 UseFst=F UseS4=T ISplat=2.
- PrismC was handed   440947295 working-precision words and    45 shell-pairs
- PrismC:  IPart=    25 DynPar=F LinDyn=F Incr=           1 UseFst=F UseS4=T ISplat=2.
- PrismC was handed   440947295 working-precision words and    45 shell-pairs
- PrismC:  IPart=    15 DynPar=F LinDyn=F Incr=           1 UseFst=F UseS4=T ISplat=2.
- PrismC was handed   440947295 working-precision words and    45 shell-pairs
- PrismC:  IPart=    13 DynPar=F LinDyn=F Incr=           1 UseFst=F UseS4=T ISplat=2.
- PrismC was handed   440947295 working-precision words and    45 shell-pairs
  Enter PrismC:  IPart=  0 JobTyp=20 DoJE=T Cont=T.
  PrismC:  IPart=     0 DynPar=F LinDyn=F Incr=           1 UseFst=F UseS4=T ISplat=2.
  PrismC was handed   440947295 working-precision words and    45 shell-pairs
+ Enter PrismC:  IPart= 21 JobTyp=20 DoJE=T Cont=T.
+ Enter PrismC:  IPart= 17 JobTyp=20 DoJE=T Cont=T.
+ PrismC:  IPart=    21 DynPar=F LinDyn=F Incr=           1 UseFst=F UseS4=T ISplat=2.
+ Enter PrismC:  IPart= 19 JobTyp=20 DoJE=T Cont=T.
+ Enter PrismC:  IPart= 23 JobTyp=20 DoJE=T Cont=T.
+ Enter PrismC:  IPart= 20 JobTyp=20 DoJE=T Cont=T.
+ Enter PrismC:  IPart=  8 JobTyp=20 DoJE=T Cont=T.
+ Enter PrismC:  IPart= 18 JobTyp=20 DoJE=T Cont=T.
+ PrismC was handed   440947295 working-precision words and    45 shell-pairs
  Enter PrismC:  IPart= 22 JobTyp=20 DoJE=T Cont=T.
+ Enter PrismC:  IPart=  4 JobTyp=20 DoJE=T Cont=T.
+ Enter PrismC:  IPart= 14 JobTyp=20 DoJE=T Cont=T.
+ Enter PrismC:  IPart= 12 JobTyp=20 DoJE=T Cont=T.
+ Enter PrismC:  IPart= 15 JobTyp=20 DoJE=T Cont=T.
+ Enter PrismC:  IPart=  2 JobTyp=20 DoJE=T Cont=T.
+ Enter PrismC:  IPart= 10 JobTyp=20 DoJE=T Cont=T.
+ Enter PrismC:  IPart=  3 JobTyp=20 DoJE=T Cont=T.
+ Enter PrismC:  IPart=  6 JobTyp=20 DoJE=T Cont=T.
+ Enter PrismC:  IPart= 11 JobTyp=20 DoJE=T Cont=T.
+ Enter PrismC:  IPart=  5 JobTyp=20 DoJE=T Cont=T.
+ Enter PrismC:  IPart= 16 JobTyp=20 DoJE=T Cont=T.
+ Enter PrismC:  IPart=  9 JobTyp=20 DoJE=T Cont=T.
+ Enter PrismC:  IPart= 24 JobTyp=20 DoJE=T Cont=T.
+ Enter PrismC:  IPart= 27 JobTyp=20 DoJE=T Cont=T.
+ Enter PrismC:  IPart= 25 JobTyp=20 DoJE=T Cont=T.
+ Enter PrismC:  IPart= 26 JobTyp=20 DoJE=T Cont=T.
+ Enter PrismC:  IPart=  7 JobTyp=20 DoJE=T Cont=T.
+ PrismC:  IPart=    17 DynPar=F LinDyn=F Incr=           1 UseFst=F UseS4=T ISplat=2.
+ Enter PrismC:  IPart=  1 JobTyp=20 DoJE=T Cont=T.
+ PrismC:  IPart=    18 DynPar=F LinDyn=F Incr=           1 UseFst=F UseS4=T ISplat=2.
+ Enter PrismC:  IPart= 13 JobTyp=20 DoJE=T Cont=T.
+ PrismC:  IPart=    25 DynPar=F LinDyn=F Incr=           1 UseFst=F UseS4=T ISplat=2.
+ PrismC:  IPart=     8 DynPar=F LinDyn=F Incr=           1 UseFst=F UseS4=T ISplat=2.
+ PrismC:  IPart=    27 DynPar=F LinDyn=F Incr=           1 UseFst=F UseS4=T ISplat=2.
+ PrismC:  IPart=    23 DynPar=F LinDyn=F Incr=           1 UseFst=F UseS4=T ISplat=2.
+ PrismC:  IPart=     2 DynPar=F LinDyn=F Incr=           1 UseFst=F UseS4=T ISplat=2.
+ PrismC:  IPart=     4 DynPar=F LinDyn=F Incr=           1 UseFst=F UseS4=T ISplat=2.
+ PrismC:  IPart=    15 DynPar=F LinDyn=F Incr=           1 UseFst=F UseS4=T ISplat=2.
+ PrismC:  IPart=    24 DynPar=F LinDyn=F Incr=           1 UseFst=F UseS4=T ISplat=2.
+ PrismC was handed   440947295 working-precision words and    45 shell-pairs
+ PrismC was handed   440947295 working-precision words and    45 shell-pairs
+ PrismC was handed   440947295 working-precision words and    45 shell-pairs
+ PrismC was handed   440947295 working-precision words and    45 shell-pairs
+ PrismC was handed   440947295 working-precision words and    45 shell-pairs
+ PrismC was handed   440947295 working-precision words and    45 shell-pairs
+ PrismC was handed   440947295 working-precision words and    45 shell-pairs
+ PrismC was handed   440947295 working-precision words and    45 shell-pairs
  PrismC:  IPart=    22 DynPar=F LinDyn=F Incr=           1 UseFst=F UseS4=T ISplat=2.
  PrismC was handed   440947295 working-precision words and    45 shell-pairs
- Enter PrismC:  IPart=  1 JobTyp=20 DoJE=T Cont=T.
- PrismC:  IPart=     1 DynPar=F LinDyn=F Incr=           1 UseFst=F UseS4=T ISplat=2.
+ PrismC was handed   440947295 working-precision words and    45 shell-pairs
+ PrismC:  IPart=     9 DynPar=F LinDyn=F Incr=           1 UseFst=F UseS4=T ISplat=2.
+ PrismC was handed   440947295 working-precision words and    45 shell-pairs
  PrismC was handed   440947295 working-precision words and    45 shell-pairs
  PrismC:  IPart=    11 DynPar=F LinDyn=F Incr=           1 UseFst=F UseS4=T ISplat=2.
  PrismC was handed   440947295 working-precision words and    45 shell-pairs
- PrismC:  IPart=     2 DynPar=F LinDyn=F Incr=           1 UseFst=F UseS4=T ISplat=2.
+ PrismC:  IPart=    26 DynPar=F LinDyn=F Incr=           1 UseFst=F UseS4=T ISplat=2.
+ PrismC:  IPart=     1 DynPar=F LinDyn=F Incr=           1 UseFst=F UseS4=T ISplat=2.
+ PrismC:  IPart=     3 DynPar=F LinDyn=F Incr=           1 UseFst=F UseS4=T ISplat=2.
  PrismC was handed   440947295 working-precision words and    45 shell-pairs
- IPart= 17 NShTot=           0 NShNF=           0 NShFF=           0 MinMC=      21
+ PrismC:  IPart=     5 DynPar=F LinDyn=F Incr=           1 UseFst=F UseS4=T ISplat=2.
+ PrismC was handed   440947295 working-precision words and    45 shell-pairs
+ PrismC:  IPart=    16 DynPar=F LinDyn=F Incr=           1 UseFst=F UseS4=T ISplat=2.
+ PrismC was handed   440947295 working-precision words and    45 shell-pairs
+ PrismC:  IPart=     6 DynPar=F LinDyn=F Incr=           1 UseFst=F UseS4=T ISplat=2.
+ PrismC was handed   440947295 working-precision words and    45 shell-pairs
+ PrismC:  IPart=    13 DynPar=F LinDyn=F Incr=           1 UseFst=F UseS4=T ISplat=2.
+ PrismC was handed   440947295 working-precision words and    45 shell-pairs
+ PrismC was handed   440947295 working-precision words and    45 shell-pairs
+ PrismC was handed   440947295 working-precision words and    45 shell-pairs
+ PrismC:  IPart=    10 DynPar=F LinDyn=F Incr=           1 UseFst=F UseS4=T ISplat=2.
+ PrismC was handed   440947295 working-precision words and    45 shell-pairs
+ PrismC:  IPart=     7 DynPar=F LinDyn=F Incr=           1 UseFst=F UseS4=T ISplat=2.
+ PrismC:  IPart=    20 DynPar=F LinDyn=F Incr=           1 UseFst=F UseS4=T ISplat=2.
+ PrismC was handed   440947295 working-precision words and    45 shell-pairs
+ PrismC was handed   440947295 working-precision words and    45 shell-pairs
+ PrismC:  IPart=    14 DynPar=F LinDyn=F Incr=           1 UseFst=F UseS4=T ISplat=2.
+ PrismC was handed   440947295 working-precision words and    45 shell-pairs
+ PrismC:  IPart=    19 DynPar=F LinDyn=F Incr=           1 UseFst=F UseS4=T ISplat=2.
+ PrismC was handed   440947295 working-precision words and    45 shell-pairs
+ PrismC:  IPart=    12 DynPar=F LinDyn=F Incr=           1 UseFst=F UseS4=T ISplat=2.
+ PrismC was handed   440947295 working-precision words and    45 shell-pairs
+ IPart= 18 NShTot=           0 NShNF=           0 NShFF=           0 MinMC=      21
+           NShCPU=           0 NBCPU=           0 AvBCPU=         0.0
+           NShGPU=           0 NBGPU=           0 AvBGPU=         0.0
+ IPart=  4 NShTot=           0 NShNF=           0 NShFF=           0 MinMC=      21
+           NShCPU=           0 NBCPU=           0 AvBCPU=         0.0
+           NShGPU=           0 NBGPU=           0 AvBGPU=         0.0
+ IPart=  0 NShTot=          45 NShNF=          45 NShFF=           0 MinMC=      21
+           NShCPU=          45 NBCPU=          45 AvBCPU=         1.0
+           NShGPU=           0 NBGPU=           0 AvBGPU=         0.0
+ IPart= 15 NShTot=           0 NShNF=           0 NShFF=           0 MinMC=      21
            NShCPU=           0 NBCPU=           0 AvBCPU=         0.0
            NShGPU=           0 NBGPU=           0 AvBGPU=         0.0
  IPart=  8 NShTot=           0 NShNF=           0 NShFF=           0 MinMC=      21
            NShCPU=           0 NBCPU=           0 AvBCPU=         0.0
            NShGPU=           0 NBGPU=           0 AvBGPU=         0.0
+ IPart= 11 NShTot=           0 NShNF=           0 NShFF=           0 MinMC=      21
+           NShCPU=           0 NBCPU=           0 AvBCPU=         0.0
+           NShGPU=           0 NBGPU=           0 AvBGPU=         0.0
+ IPart= 21 NShTot=           0 NShNF=           0 NShFF=           0 MinMC=      21
+           NShCPU=           0 NBCPU=           0 AvBCPU=         0.0
+           NShGPU=           0 NBGPU=           0 AvBGPU=         0.0
  IPart= 23 NShTot=           0 NShNF=           0 NShFF=           0 MinMC=      21
            NShCPU=           0 NBCPU=           0 AvBCPU=         0.0
            NShGPU=           0 NBGPU=           0 AvBGPU=         0.0
- IPart= 19 NShTot=           0 NShNF=           0 NShFF=           0 MinMC=      21
+ IPart= 24 NShTot=           0 NShNF=           0 NShFF=           0 MinMC=      21
            NShCPU=           0 NBCPU=           0 AvBCPU=         0.0
            NShGPU=           0 NBGPU=           0 AvBGPU=         0.0
- IPart=  7 NShTot=           0 NShNF=           0 NShFF=           0 MinMC=      21
+ IPart=  9 NShTot=           0 NShNF=           0 NShFF=           0 MinMC=      21
            NShCPU=           0 NBCPU=           0 AvBCPU=         0.0
            NShGPU=           0 NBGPU=           0 AvBGPU=         0.0
  IPart=  6 NShTot=           0 NShNF=           0 NShFF=           0 MinMC=      21
@@ -1009,67 +1024,52 @@
  IPart=  3 NShTot=           0 NShNF=           0 NShFF=           0 MinMC=      21
            NShCPU=           0 NBCPU=           0 AvBCPU=         0.0
            NShGPU=           0 NBGPU=           0 AvBGPU=         0.0
- IPart= 12 NShTot=           0 NShNF=           0 NShFF=           0 MinMC=      21
-           NShCPU=           0 NBCPU=           0 AvBCPU=         0.0
-           NShGPU=           0 NBGPU=           0 AvBGPU=         0.0
- IPart= 22 NShTot=           0 NShNF=           0 NShFF=           0 MinMC=      21
-           NShCPU=           0 NBCPU=           0 AvBCPU=         0.0
-           NShGPU=           0 NBGPU=           0 AvBGPU=         0.0
- IPart= 20 NShTot=           0 NShNF=           0 NShFF=           0 MinMC=      21
-           NShCPU=           0 NBCPU=           0 AvBCPU=         0.0
-           NShGPU=           0 NBGPU=           0 AvBGPU=         0.0
- IPart= 25 NShTot=           0 NShNF=           0 NShFF=           0 MinMC=      21
-           NShCPU=           0 NBCPU=           0 AvBCPU=         0.0
-           NShGPU=           0 NBGPU=           0 AvBGPU=         0.0
- IPart= 21 NShTot=           0 NShNF=           0 NShFF=           0 MinMC=      21
-           NShCPU=           0 NBCPU=           0 AvBCPU=         0.0
-           NShGPU=           0 NBGPU=           0 AvBGPU=         0.0
  IPart= 26 NShTot=           0 NShNF=           0 NShFF=           0 MinMC=      21
-           NShCPU=           0 NBCPU=           0 AvBCPU=         0.0
-           NShGPU=           0 NBGPU=           0 AvBGPU=         0.0
- IPart= 15 NShTot=           0 NShNF=           0 NShFF=           0 MinMC=      21
-           NShCPU=           0 NBCPU=           0 AvBCPU=         0.0
-           NShGPU=           0 NBGPU=           0 AvBGPU=         0.0
- IPart= 14 NShTot=           0 NShNF=           0 NShFF=           0 MinMC=      21
-           NShCPU=           0 NBCPU=           0 AvBCPU=         0.0
-           NShGPU=           0 NBGPU=           0 AvBGPU=         0.0
- IPart= 16 NShTot=           0 NShNF=           0 NShFF=           0 MinMC=      21
-           NShCPU=           0 NBCPU=           0 AvBCPU=         0.0
-           NShGPU=           0 NBGPU=           0 AvBGPU=         0.0
- IPart=  0 NShTot=          45 NShNF=          45 NShFF=           0 MinMC=      21
-           NShCPU=          45 NBCPU=          45 AvBCPU=         1.0
-           NShGPU=           0 NBGPU=           0 AvBGPU=         0.0
- IPart= 18 NShTot=           0 NShNF=           0 NShFF=           0 MinMC=      21
            NShCPU=           0 NBCPU=           0 AvBCPU=         0.0
            NShGPU=           0 NBGPU=           0 AvBGPU=         0.0
  IPart= 27 NShTot=           0 NShNF=           0 NShFF=           0 MinMC=      21
            NShCPU=           0 NBCPU=           0 AvBCPU=         0.0
            NShGPU=           0 NBGPU=           0 AvBGPU=         0.0
- IPart= 24 NShTot=           0 NShNF=           0 NShFF=           0 MinMC=      21
-           NShCPU=           0 NBCPU=           0 AvBCPU=         0.0
-           NShGPU=           0 NBGPU=           0 AvBGPU=         0.0
- IPart= 13 NShTot=           0 NShNF=           0 NShFF=           0 MinMC=      21
+ IPart= 22 NShTot=           0 NShNF=           0 NShFF=           0 MinMC=      21
            NShCPU=           0 NBCPU=           0 AvBCPU=         0.0
            NShGPU=           0 NBGPU=           0 AvBGPU=         0.0
  IPart=  1 NShTot=           0 NShNF=           0 NShFF=           0 MinMC=      21
            NShCPU=           0 NBCPU=           0 AvBCPU=         0.0
            NShGPU=           0 NBGPU=           0 AvBGPU=         0.0
- IPart=  9 NShTot=           0 NShNF=           0 NShFF=           0 MinMC=      21
+ IPart= 12 NShTot=           0 NShNF=           0 NShFF=           0 MinMC=      21
            NShCPU=           0 NBCPU=           0 AvBCPU=         0.0
            NShGPU=           0 NBGPU=           0 AvBGPU=         0.0
- IPart=  4 NShTot=           0 NShNF=           0 NShFF=           0 MinMC=      21
+ IPart= 19 NShTot=           0 NShNF=           0 NShFF=           0 MinMC=      21
            NShCPU=           0 NBCPU=           0 AvBCPU=         0.0
            NShGPU=           0 NBGPU=           0 AvBGPU=         0.0
- IPart=  5 NShTot=           0 NShNF=           0 NShFF=           0 MinMC=      21
+ IPart= 16 NShTot=           0 NShNF=           0 NShFF=           0 MinMC=      21
            NShCPU=           0 NBCPU=           0 AvBCPU=         0.0
            NShGPU=           0 NBGPU=           0 AvBGPU=         0.0
- IPart= 11 NShTot=           0 NShNF=           0 NShFF=           0 MinMC=      21
+ IPart= 17 NShTot=           0 NShNF=           0 NShFF=           0 MinMC=      21
+           NShCPU=           0 NBCPU=           0 AvBCPU=         0.0
+           NShGPU=           0 NBGPU=           0 AvBGPU=         0.0
+ IPart=  2 NShTot=           0 NShNF=           0 NShFF=           0 MinMC=      21
            NShCPU=           0 NBCPU=           0 AvBCPU=         0.0
            NShGPU=           0 NBGPU=           0 AvBGPU=         0.0
  IPart= 10 NShTot=           0 NShNF=           0 NShFF=           0 MinMC=      21
            NShCPU=           0 NBCPU=           0 AvBCPU=         0.0
            NShGPU=           0 NBGPU=           0 AvBGPU=         0.0
- IPart=  2 NShTot=           0 NShNF=           0 NShFF=           0 MinMC=      21
+ IPart=  5 NShTot=           0 NShNF=           0 NShFF=           0 MinMC=      21
+           NShCPU=           0 NBCPU=           0 AvBCPU=         0.0
+           NShGPU=           0 NBGPU=           0 AvBGPU=         0.0
+ IPart= 13 NShTot=           0 NShNF=           0 NShFF=           0 MinMC=      21
+           NShCPU=           0 NBCPU=           0 AvBCPU=         0.0
+           NShGPU=           0 NBGPU=           0 AvBGPU=         0.0
+ IPart= 20 NShTot=           0 NShNF=           0 NShFF=           0 MinMC=      21
+           NShCPU=           0 NBCPU=           0 AvBCPU=         0.0
+           NShGPU=           0 NBGPU=           0 AvBGPU=         0.0
+ IPart=  7 NShTot=           0 NShNF=           0 NShFF=           0 MinMC=      21
+           NShCPU=           0 NBCPU=           0 AvBCPU=         0.0
+           NShGPU=           0 NBGPU=           0 AvBGPU=         0.0
+ IPart= 25 NShTot=           0 NShNF=           0 NShFF=           0 MinMC=      21
+           NShCPU=           0 NBCPU=           0 AvBCPU=         0.0
+           NShGPU=           0 NBGPU=           0 AvBGPU=         0.0
+ IPart= 14 NShTot=           0 NShNF=           0 NShFF=           0 MinMC=      21
            NShCPU=           0 NBCPU=           0 AvBCPU=         0.0
            NShGPU=           0 NBGPU=           0 AvBGPU=         0.0
  CoulSu:  NxtVal=             29 LenVP=      440947296 MinMC=      21.
@@ -1080,169 +1080,169 @@
  Enter PrismC:  IPart=  0 JobTyp=20 DoJE=T Cont=F.
  PrismC:  IPart=     0 DynPar=F LinDyn=F Incr=           1 UseFst=F UseS4=T ISplat=2.
  PrismC was handed   440896454 working-precision words and    45 shell-pairs
- Enter PrismC:  IPart= 26 JobTyp=20 DoJE=T Cont=F.
- Enter PrismC:  IPart=  9 JobTyp=20 DoJE=T Cont=F.
- PrismC:  IPart=    26 DynPar=F LinDyn=F Incr=           1 UseFst=F UseS4=T ISplat=2.
+ Enter PrismC:  IPart= 23 JobTyp=20 DoJE=T Cont=F.
+ Enter PrismC:  IPart= 10 JobTyp=20 DoJE=T Cont=F.
+ Enter PrismC:  IPart=  8 JobTyp=20 DoJE=T Cont=F.
+ PrismC:  IPart=    23 DynPar=F LinDyn=F Incr=           1 UseFst=F UseS4=T ISplat=2.
  PrismC was handed   440896454 working-precision words and    45 shell-pairs
- PrismC:  IPart=     9 DynPar=F LinDyn=F Incr=           1 UseFst=F UseS4=T ISplat=2.
+ PrismC:  IPart=    10 DynPar=F LinDyn=F Incr=           1 UseFst=F UseS4=T ISplat=2.
  PrismC was handed   440896454 working-precision words and    45 shell-pairs
- Enter PrismC:  IPart=  1 JobTyp=20 DoJE=T Cont=F.
- PrismC:  IPart=     1 DynPar=F LinDyn=F Incr=           1 UseFst=F UseS4=T ISplat=2.
- Enter PrismC:  IPart=  6 JobTyp=20 DoJE=T Cont=F.
- Enter PrismC:  IPart= 18 JobTyp=20 DoJE=T Cont=F.
- Enter PrismC:  IPart=  4 JobTyp=20 DoJE=T Cont=F.
- PrismC:  IPart=     6 DynPar=F LinDyn=F Incr=           1 UseFst=F UseS4=T ISplat=2.
+ Enter PrismC:  IPart= 21 JobTyp=20 DoJE=T Cont=F.
+ Enter PrismC:  IPart=  5 JobTyp=20 DoJE=T Cont=F.
+ Enter PrismC:  IPart= 16 JobTyp=20 DoJE=T Cont=F.
+ PrismC:  IPart=     8 DynPar=F LinDyn=F Incr=           1 UseFst=F UseS4=T ISplat=2.
+ PrismC was handed   440896454 working-precision words and    45 shell-pairs
+ PrismC:  IPart=    16 DynPar=F LinDyn=F Incr=           1 UseFst=F UseS4=T ISplat=2.
+ PrismC was handed   440896454 working-precision words and    45 shell-pairs
  Enter PrismC:  IPart= 19 JobTyp=20 DoJE=T Cont=F.
+ PrismC:  IPart=     5 DynPar=F LinDyn=F Incr=           1 UseFst=F UseS4=T ISplat=2.
+ Enter PrismC:  IPart=  6 JobTyp=20 DoJE=T Cont=F.
+ PrismC:  IPart=    19 DynPar=F LinDyn=F Incr=           1 UseFst=F UseS4=T ISplat=2.
+ Enter PrismC:  IPart= 27 JobTyp=20 DoJE=T Cont=F.
+ Enter PrismC:  IPart= 14 JobTyp=20 DoJE=T Cont=F.
+ PrismC:  IPart=     6 DynPar=F LinDyn=F Incr=           1 UseFst=F UseS4=T ISplat=2.
+ PrismC:  IPart=    27 DynPar=F LinDyn=F Incr=           1 UseFst=F UseS4=T ISplat=2.
+ Enter PrismC:  IPart= 17 JobTyp=20 DoJE=T Cont=F.
+ PrismC was handed   440896454 working-precision words and    45 shell-pairs
  Enter PrismC:  IPart= 12 JobTyp=20 DoJE=T Cont=F.
+ Enter PrismC:  IPart= 20 JobTyp=20 DoJE=T Cont=F.
+ PrismC:  IPart=    21 DynPar=F LinDyn=F Incr=           1 UseFst=F UseS4=T ISplat=2.
+ Enter PrismC:  IPart= 26 JobTyp=20 DoJE=T Cont=F.
+ Enter PrismC:  IPart=  3 JobTyp=20 DoJE=T Cont=F.
+ Enter PrismC:  IPart=  9 JobTyp=20 DoJE=T Cont=F.
+ Enter PrismC:  IPart=  7 JobTyp=20 DoJE=T Cont=F.
+ Enter PrismC:  IPart= 25 JobTyp=20 DoJE=T Cont=F.
+ Enter PrismC:  IPart= 22 JobTyp=20 DoJE=T Cont=F.
+ Enter PrismC:  IPart= 15 JobTyp=20 DoJE=T Cont=F.
+ PrismC:  IPart=    14 DynPar=F LinDyn=F Incr=           1 UseFst=F UseS4=T ISplat=2.
+ PrismC:  IPart=    15 DynPar=F LinDyn=F Incr=           1 UseFst=F UseS4=T ISplat=2.
+ PrismC:  IPart=     3 DynPar=F LinDyn=F Incr=           1 UseFst=F UseS4=T ISplat=2.
+ PrismC:  IPart=     7 DynPar=F LinDyn=F Incr=           1 UseFst=F UseS4=T ISplat=2.
+ PrismC:  IPart=    26 DynPar=F LinDyn=F Incr=           1 UseFst=F UseS4=T ISplat=2.
+ PrismC:  IPart=    22 DynPar=F LinDyn=F Incr=           1 UseFst=F UseS4=T ISplat=2.
  Enter PrismC:  IPart= 13 JobTyp=20 DoJE=T Cont=F.
+ PrismC:  IPart=     9 DynPar=F LinDyn=F Incr=           1 UseFst=F UseS4=T ISplat=2.
+ Enter PrismC:  IPart= 18 JobTyp=20 DoJE=T Cont=F.
+ PrismC:  IPart=    13 DynPar=F LinDyn=F Incr=           1 UseFst=F UseS4=T ISplat=2.
  Enter PrismC:  IPart= 24 JobTyp=20 DoJE=T Cont=F.
  PrismC was handed   440896454 working-precision words and    45 shell-pairs
- PrismC:  IPart=     4 DynPar=F LinDyn=F Incr=           1 UseFst=F UseS4=T ISplat=2.
+ PrismC:  IPart=    18 DynPar=F LinDyn=F Incr=           1 UseFst=F UseS4=T ISplat=2.
+ PrismC was handed   440896454 working-precision words and    45 shell-pairs
  PrismC was handed   440896454 working-precision words and    45 shell-pairs
  PrismC:  IPart=    24 DynPar=F LinDyn=F Incr=           1 UseFst=F UseS4=T ISplat=2.
  PrismC was handed   440896454 working-precision words and    45 shell-pairs
- Enter PrismC:  IPart= 17 JobTyp=20 DoJE=T Cont=F.
- Enter PrismC:  IPart=  5 JobTyp=20 DoJE=T Cont=F.
- PrismC:  IPart=    13 DynPar=F LinDyn=F Incr=           1 UseFst=F UseS4=T ISplat=2.
- Enter PrismC:  IPart= 22 JobTyp=20 DoJE=T Cont=F.
- PrismC:  IPart=     5 DynPar=F LinDyn=F Incr=           1 UseFst=F UseS4=T ISplat=2.
- Enter PrismC:  IPart=  8 JobTyp=20 DoJE=T Cont=F.
- PrismC:  IPart=    22 DynPar=F LinDyn=F Incr=           1 UseFst=F UseS4=T ISplat=2.
- Enter PrismC:  IPart= 15 JobTyp=20 DoJE=T Cont=F.
- Enter PrismC:  IPart=  2 JobTyp=20 DoJE=T Cont=F.
- PrismC:  IPart=     8 DynPar=F LinDyn=F Incr=           1 UseFst=F UseS4=T ISplat=2.
- Enter PrismC:  IPart= 23 JobTyp=20 DoJE=T Cont=F.
- PrismC:  IPart=    17 DynPar=F LinDyn=F Incr=           1 UseFst=F UseS4=T ISplat=2.
- Enter PrismC:  IPart=  3 JobTyp=20 DoJE=T Cont=F.
- PrismC:  IPart=    23 DynPar=F LinDyn=F Incr=           1 UseFst=F UseS4=T ISplat=2.
- PrismC:  IPart=     3 DynPar=F LinDyn=F Incr=           1 UseFst=F UseS4=T ISplat=2.
- Enter PrismC:  IPart= 20 JobTyp=20 DoJE=T Cont=F.
- PrismC:  IPart=    18 DynPar=F LinDyn=F Incr=           1 UseFst=F UseS4=T ISplat=2.
- Enter PrismC:  IPart= 21 JobTyp=20 DoJE=T Cont=F.
+ PrismC:  IPart=    25 DynPar=F LinDyn=F Incr=           1 UseFst=F UseS4=T ISplat=2.
  PrismC was handed   440896454 working-precision words and    45 shell-pairs
- Enter PrismC:  IPart= 14 JobTyp=20 DoJE=T Cont=F.
  PrismC was handed   440896454 working-precision words and    45 shell-pairs
- Enter PrismC:  IPart=  7 JobTyp=20 DoJE=T Cont=F.
- PrismC:  IPart=    20 DynPar=F LinDyn=F Incr=           1 UseFst=F UseS4=T ISplat=2.
+ Enter PrismC:  IPart=  4 JobTyp=20 DoJE=T Cont=F.
+ PrismC was handed   440896454 working-precision words and    45 shell-pairs
+ Enter PrismC:  IPart=  1 JobTyp=20 DoJE=T Cont=F.
  PrismC was handed   440896454 working-precision words and    45 shell-pairs
  PrismC was handed   440896454 working-precision words and    45 shell-pairs
  PrismC was handed   440896454 working-precision words and    45 shell-pairs
  PrismC:  IPart=    12 DynPar=F LinDyn=F Incr=           1 UseFst=F UseS4=T ISplat=2.
- Enter PrismC:  IPart= 25 JobTyp=20 DoJE=T Cont=F.
- PrismC:  IPart=     7 DynPar=F LinDyn=F Incr=           1 UseFst=F UseS4=T ISplat=2.
- Enter PrismC:  IPart= 16 JobTyp=20 DoJE=T Cont=F.
- PrismC:  IPart=    25 DynPar=F LinDyn=F Incr=           1 UseFst=F UseS4=T ISplat=2.
- Enter PrismC:  IPart= 27 JobTyp=20 DoJE=T Cont=F.
- PrismC:  IPart=    21 DynPar=F LinDyn=F Incr=           1 UseFst=F UseS4=T ISplat=2.
  PrismC was handed   440896454 working-precision words and    45 shell-pairs
- PrismC:  IPart=    15 DynPar=F LinDyn=F Incr=           1 UseFst=F UseS4=T ISplat=2.
+ PrismC:  IPart=    17 DynPar=F LinDyn=F Incr=           1 UseFst=F UseS4=T ISplat=2.
+ Enter PrismC:  IPart= 11 JobTyp=20 DoJE=T Cont=F.
+ PrismC:  IPart=     1 DynPar=F LinDyn=F Incr=           1 UseFst=F UseS4=T ISplat=2.
+ PrismC:  IPart=    11 DynPar=F LinDyn=F Incr=           1 UseFst=F UseS4=T ISplat=2.
  PrismC was handed   440896454 working-precision words and    45 shell-pairs
+ PrismC was handed   440896454 working-precision words and    45 shell-pairs
+ PrismC:  IPart=    20 DynPar=F LinDyn=F Incr=           1 UseFst=F UseS4=T ISplat=2.
+ PrismC was handed   440896454 working-precision words and    45 shell-pairs
+ PrismC:  IPart=     4 DynPar=F LinDyn=F Incr=           1 UseFst=F UseS4=T ISplat=2.
+ PrismC was handed   440896454 working-precision words and    45 shell-pairs
+ PrismC was handed   440896454 working-precision words and    45 shell-pairs
+ PrismC was handed   440896454 working-precision words and    45 shell-pairs
+ Enter PrismC:  IPart=  2 JobTyp=20 DoJE=T Cont=F.
  PrismC was handed   440896454 working-precision words and    45 shell-pairs
  PrismC was handed   440896454 working-precision words and    45 shell-pairs
  PrismC was handed   440896454 working-precision words and    45 shell-pairs
  PrismC:  IPart=     2 DynPar=F LinDyn=F Incr=           1 UseFst=F UseS4=T ISplat=2.
  PrismC was handed   440896454 working-precision words and    45 shell-pairs
- PrismC:  IPart=    19 DynPar=F LinDyn=F Incr=           1 UseFst=F UseS4=T ISplat=2.
  PrismC was handed   440896454 working-precision words and    45 shell-pairs
- PrismC:  IPart=    16 DynPar=F LinDyn=F Incr=           1 UseFst=F UseS4=T ISplat=2.
- PrismC was handed   440896454 working-precision words and    45 shell-pairs
- PrismC was handed   440896454 working-precision words and    45 shell-pairs
- PrismC was handed   440896454 working-precision words and    45 shell-pairs
- PrismC:  IPart=    14 DynPar=F LinDyn=F Incr=           1 UseFst=F UseS4=T ISplat=2.
- PrismC was handed   440896454 working-precision words and    45 shell-pairs
- PrismC was handed   440896454 working-precision words and    45 shell-pairs
- PrismC:  IPart=    27 DynPar=F LinDyn=F Incr=           1 UseFst=F UseS4=T ISplat=2.
- PrismC was handed   440896454 working-precision words and    45 shell-pairs
- PrismC was handed   440896454 working-precision words and    45 shell-pairs
- PrismC was handed   440896454 working-precision words and    45 shell-pairs
- Enter PrismC:  IPart= 11 JobTyp=20 DoJE=T Cont=F.
- Enter PrismC:  IPart= 10 JobTyp=20 DoJE=T Cont=F.
- PrismC:  IPart=    11 DynPar=F LinDyn=F Incr=           1 UseFst=F UseS4=T ISplat=2.
- PrismC was handed   440896454 working-precision words and    45 shell-pairs
- PrismC:  IPart=    10 DynPar=F LinDyn=F Incr=           1 UseFst=F UseS4=T ISplat=2.
- PrismC was handed   440896454 working-precision words and    45 shell-pairs
- IPart=  9 NShTot=           0 NShNF=           0 NShFF=           0 MinMC=      11
-           NShCPU=           0 NBCPU=           0 AvBCPU=         0.0
-           NShGPU=           0 NBGPU=           0 AvBGPU=         0.0
- IPart= 26 NShTot=           0 NShNF=           0 NShFF=           0 MinMC=      11
-           NShCPU=           0 NBCPU=           0 AvBCPU=         0.0
-           NShGPU=           0 NBGPU=           0 AvBGPU=         0.0
- IPart=  1 NShTot=           0 NShNF=           0 NShFF=           0 MinMC=      11
-           NShCPU=           0 NBCPU=           0 AvBCPU=         0.0
-           NShGPU=           0 NBGPU=           0 AvBGPU=         0.0
- IPart=  4 NShTot=           0 NShNF=           0 NShFF=           0 MinMC=      11
-           NShCPU=           0 NBCPU=           0 AvBCPU=         0.0
-           NShGPU=           0 NBGPU=           0 AvBGPU=         0.0
- IPart=  6 NShTot=           0 NShNF=           0 NShFF=           0 MinMC=      11
-           NShCPU=           0 NBCPU=           0 AvBCPU=         0.0
-           NShGPU=           0 NBGPU=           0 AvBGPU=         0.0
- IPart= 24 NShTot=           0 NShNF=           0 NShFF=           0 MinMC=      11
-           NShCPU=           0 NBCPU=           0 AvBCPU=         0.0
-           NShGPU=           0 NBGPU=           0 AvBGPU=         0.0
- IPart= 13 NShTot=           0 NShNF=           0 NShFF=           0 MinMC=      11
-           NShCPU=           0 NBCPU=           0 AvBCPU=         0.0
-           NShGPU=           0 NBGPU=           0 AvBGPU=         0.0
- IPart= 22 NShTot=           0 NShNF=           0 NShFF=           0 MinMC=      11
-           NShCPU=           0 NBCPU=           0 AvBCPU=         0.0
-           NShGPU=           0 NBGPU=           0 AvBGPU=         0.0
- IPart=  5 NShTot=           0 NShNF=           0 NShFF=           0 MinMC=      11
-           NShCPU=           0 NBCPU=           0 AvBCPU=         0.0
-           NShGPU=           0 NBGPU=           0 AvBGPU=         0.0
- IPart= 12 NShTot=           0 NShNF=           0 NShFF=           0 MinMC=      11
-           NShCPU=           0 NBCPU=           0 AvBCPU=         0.0
-           NShGPU=           0 NBGPU=           0 AvBGPU=         0.0
  IPart=  0 NShTot=           0 NShNF=           0 NShFF=           0 MinMC=      11
-           NShCPU=           0 NBCPU=           0 AvBCPU=         0.0
-           NShGPU=           0 NBGPU=           0 AvBGPU=         0.0
- IPart= 17 NShTot=           0 NShNF=           0 NShFF=           0 MinMC=      11
-           NShCPU=           0 NBCPU=           0 AvBCPU=         0.0
-           NShGPU=           0 NBGPU=           0 AvBGPU=         0.0
- IPart= 20 NShTot=           0 NShNF=           0 NShFF=           0 MinMC=      11
-           NShCPU=           0 NBCPU=           0 AvBCPU=         0.0
-           NShGPU=           0 NBGPU=           0 AvBGPU=         0.0
- IPart= 15 NShTot=           0 NShNF=           0 NShFF=           0 MinMC=      11
-           NShCPU=           0 NBCPU=           0 AvBCPU=         0.0
-           NShGPU=           0 NBGPU=           0 AvBGPU=         0.0
- IPart= 19 NShTot=           0 NShNF=           0 NShFF=           0 MinMC=      11
-           NShCPU=           0 NBCPU=           0 AvBCPU=         0.0
-           NShGPU=           0 NBGPU=           0 AvBGPU=         0.0
- IPart= 16 NShTot=           0 NShNF=           0 NShFF=           0 MinMC=      11
-           NShCPU=           0 NBCPU=           0 AvBCPU=         0.0
-           NShGPU=           0 NBGPU=           0 AvBGPU=         0.0
- IPart= 27 NShTot=           0 NShNF=           0 NShFF=           0 MinMC=      11
-           NShCPU=           0 NBCPU=           0 AvBCPU=         0.0
-           NShGPU=           0 NBGPU=           0 AvBGPU=         0.0
- IPart=  8 NShTot=           0 NShNF=           0 NShFF=           0 MinMC=      11
-           NShCPU=           0 NBCPU=           0 AvBCPU=         0.0
-           NShGPU=           0 NBGPU=           0 AvBGPU=         0.0
- IPart= 18 NShTot=           0 NShNF=           0 NShFF=           0 MinMC=      11
            NShCPU=           0 NBCPU=           0 AvBCPU=         0.0
            NShGPU=           0 NBGPU=           0 AvBGPU=         0.0
  IPart= 23 NShTot=           0 NShNF=           0 NShFF=           0 MinMC=      11
            NShCPU=           0 NBCPU=           0 AvBCPU=         0.0
            NShGPU=           0 NBGPU=           0 AvBGPU=         0.0
- IPart=  3 NShTot=           0 NShNF=           0 NShFF=           0 MinMC=      11
+ IPart= 18 NShTot=           0 NShNF=           0 NShFF=           0 MinMC=      11
            NShCPU=           0 NBCPU=           0 AvBCPU=         0.0
            NShGPU=           0 NBGPU=           0 AvBGPU=         0.0
- IPart= 25 NShTot=           0 NShNF=           0 NShFF=           0 MinMC=      11
+ IPart=  9 NShTot=           0 NShNF=           0 NShFF=           0 MinMC=      11
            NShCPU=           0 NBCPU=           0 AvBCPU=         0.0
            NShGPU=           0 NBGPU=           0 AvBGPU=         0.0
- IPart=  7 NShTot=           0 NShNF=           0 NShFF=           0 MinMC=      11
+ IPart= 24 NShTot=           0 NShNF=           0 NShFF=           0 MinMC=      11
+           NShCPU=           0 NBCPU=           0 AvBCPU=         0.0
+           NShGPU=           0 NBGPU=           0 AvBGPU=         0.0
+ IPart=  6 NShTot=           0 NShNF=           0 NShFF=           0 MinMC=      11
            NShCPU=           0 NBCPU=           0 AvBCPU=         0.0
            NShGPU=           0 NBGPU=           0 AvBGPU=         0.0
  IPart= 21 NShTot=           0 NShNF=           0 NShFF=           0 MinMC=      11
            NShCPU=           0 NBCPU=           0 AvBCPU=         0.0
            NShGPU=           0 NBGPU=           0 AvBGPU=         0.0
- IPart= 14 NShTot=           0 NShNF=           0 NShFF=           0 MinMC=      11
+ IPart=  3 NShTot=           0 NShNF=           0 NShFF=           0 MinMC=      11
+           NShCPU=           0 NBCPU=           0 AvBCPU=         0.0
+           NShGPU=           0 NBGPU=           0 AvBGPU=         0.0
+ IPart=  8 NShTot=           0 NShNF=           0 NShFF=           0 MinMC=      11
            NShCPU=           0 NBCPU=           0 AvBCPU=         0.0
            NShGPU=           0 NBGPU=           0 AvBGPU=         0.0
  IPart= 11 NShTot=           0 NShNF=           0 NShFF=           0 MinMC=      11
            NShCPU=           0 NBCPU=           0 AvBCPU=         0.0
            NShGPU=           0 NBGPU=           0 AvBGPU=         0.0
- IPart=  2 NShTot=           0 NShNF=           0 NShFF=           0 MinMC=      11
+ IPart=  4 NShTot=           0 NShNF=           0 NShFF=           0 MinMC=      11
+           NShCPU=           0 NBCPU=           0 AvBCPU=         0.0
+           NShGPU=           0 NBGPU=           0 AvBGPU=         0.0
+ IPart= 15 NShTot=           0 NShNF=           0 NShFF=           0 MinMC=      11
+           NShCPU=           0 NBCPU=           0 AvBCPU=         0.0
+           NShGPU=           0 NBGPU=           0 AvBGPU=         0.0
+ IPart= 27 NShTot=           0 NShNF=           0 NShFF=           0 MinMC=      11
+           NShCPU=           0 NBCPU=           0 AvBCPU=         0.0
+           NShGPU=           0 NBGPU=           0 AvBGPU=         0.0
+ IPart= 26 NShTot=           0 NShNF=           0 NShFF=           0 MinMC=      11
+           NShCPU=           0 NBCPU=           0 AvBCPU=         0.0
+           NShGPU=           0 NBGPU=           0 AvBGPU=         0.0
+ IPart= 16 NShTot=           0 NShNF=           0 NShFF=           0 MinMC=      11
+           NShCPU=           0 NBCPU=           0 AvBCPU=         0.0
+           NShGPU=           0 NBGPU=           0 AvBGPU=         0.0
+ IPart=  7 NShTot=           0 NShNF=           0 NShFF=           0 MinMC=      11
+           NShCPU=           0 NBCPU=           0 AvBCPU=         0.0
+           NShGPU=           0 NBGPU=           0 AvBGPU=         0.0
+ IPart=  5 NShTot=           0 NShNF=           0 NShFF=           0 MinMC=      11
            NShCPU=           0 NBCPU=           0 AvBCPU=         0.0
            NShGPU=           0 NBGPU=           0 AvBGPU=         0.0
  IPart= 10 NShTot=           0 NShNF=           0 NShFF=           0 MinMC=      11
+           NShCPU=           0 NBCPU=           0 AvBCPU=         0.0
+           NShGPU=           0 NBGPU=           0 AvBGPU=         0.0
+ IPart= 14 NShTot=           0 NShNF=           0 NShFF=           0 MinMC=      11
+           NShCPU=           0 NBCPU=           0 AvBCPU=         0.0
+           NShGPU=           0 NBGPU=           0 AvBGPU=         0.0
+ IPart= 22 NShTot=           0 NShNF=           0 NShFF=           0 MinMC=      11
+           NShCPU=           0 NBCPU=           0 AvBCPU=         0.0
+           NShGPU=           0 NBGPU=           0 AvBGPU=         0.0
+ IPart= 13 NShTot=           0 NShNF=           0 NShFF=           0 MinMC=      11
+           NShCPU=           0 NBCPU=           0 AvBCPU=         0.0
+           NShGPU=           0 NBGPU=           0 AvBGPU=         0.0
+ IPart= 20 NShTot=           0 NShNF=           0 NShFF=           0 MinMC=      11
+           NShCPU=           0 NBCPU=           0 AvBCPU=         0.0
+           NShGPU=           0 NBGPU=           0 AvBGPU=         0.0
+ IPart= 25 NShTot=           0 NShNF=           0 NShFF=           0 MinMC=      11
+           NShCPU=           0 NBCPU=           0 AvBCPU=         0.0
+           NShGPU=           0 NBGPU=           0 AvBGPU=         0.0
+ IPart=  2 NShTot=           0 NShNF=           0 NShFF=           0 MinMC=      11
+           NShCPU=           0 NBCPU=           0 AvBCPU=         0.0
+           NShGPU=           0 NBGPU=           0 AvBGPU=         0.0
+ IPart= 19 NShTot=           0 NShNF=           0 NShFF=           0 MinMC=      11
+           NShCPU=           0 NBCPU=           0 AvBCPU=         0.0
+           NShGPU=           0 NBGPU=           0 AvBGPU=         0.0
+ IPart= 12 NShTot=           0 NShNF=           0 NShFF=           0 MinMC=      11
+           NShCPU=           0 NBCPU=           0 AvBCPU=         0.0
+           NShGPU=           0 NBGPU=           0 AvBGPU=         0.0
+ IPart=  1 NShTot=           0 NShNF=           0 NShFF=           0 MinMC=      11
+           NShCPU=           0 NBCPU=           0 AvBCPU=         0.0
+           NShGPU=           0 NBGPU=           0 AvBGPU=         0.0
+ IPart= 17 NShTot=           0 NShNF=           0 NShFF=           0 MinMC=      11
            NShCPU=           0 NBCPU=           0 AvBCPU=         0.0
            NShGPU=           0 NBGPU=           0 AvBGPU=         0.0
  CoulSu:  NxtVal=             29 LenVP=      440896455 MinMC=      11.
@@ -1282,34 +1282,34 @@
  PRISM was handed   440947548 working-precision words and    45 shell-pairs
  PRISM was handed   440947548 working-precision words and    45 shell-pairs
  PRISM was handed   440947548 working-precision words and    45 shell-pairs
+ IPart= 14 NShTot=           0 NBatch=           0 AvBLen=         0.0
  IPart=  6 NShTot=           0 NBatch=           0 AvBLen=         0.0
+ IPart= 17 NShTot=           0 NBatch=           0 AvBLen=         0.0
+ IPart= 16 NShTot=           0 NBatch=           0 AvBLen=         0.0
+ IPart= 10 NShTot=           0 NBatch=           0 AvBLen=         0.0
  IPart= 12 NShTot=           0 NBatch=           0 AvBLen=         0.0
+ IPart= 23 NShTot=           0 NBatch=           0 AvBLen=         0.0
+ IPart= 25 NShTot=           0 NBatch=           0 AvBLen=         0.0
+ IPart= 22 NShTot=           0 NBatch=           0 AvBLen=         0.0
+ IPart= 27 NShTot=           0 NBatch=           0 AvBLen=         0.0
+ IPart= 21 NShTot=           0 NBatch=           0 AvBLen=         0.0
+ IPart=  7 NShTot=           0 NBatch=           0 AvBLen=         0.0
+ IPart= 11 NShTot=           0 NBatch=           0 AvBLen=         0.0
+ IPart= 19 NShTot=           0 NBatch=           0 AvBLen=         0.0
+ IPart=  5 NShTot=           0 NBatch=           0 AvBLen=         0.0
  IPart= 26 NShTot=           0 NBatch=           0 AvBLen=         0.0
  IPart= 24 NShTot=           0 NBatch=           0 AvBLen=         0.0
  IPart=  9 NShTot=           0 NBatch=           0 AvBLen=         0.0
- IPart= 13 NShTot=           0 NBatch=           0 AvBLen=         0.0
- IPart=  5 NShTot=           0 NBatch=           0 AvBLen=         0.0
- IPart= 11 NShTot=           0 NBatch=           0 AvBLen=         0.0
- IPart= 22 NShTot=           0 NBatch=           0 AvBLen=         0.0
- IPart=  4 NShTot=           1 NBatch=           1 AvBLen=         1.0
- IPart=  1 NShTot=          13 NBatch=          13 AvBLen=         1.0
- IPart=  8 NShTot=           0 NBatch=           0 AvBLen=         0.0
- IPart= 16 NShTot=           0 NBatch=           0 AvBLen=         0.0
- IPart= 27 NShTot=           0 NBatch=           0 AvBLen=         0.0
- IPart= 20 NShTot=           0 NBatch=           0 AvBLen=         0.0
- IPart= 19 NShTot=           0 NBatch=           0 AvBLen=         0.0
- IPart= 15 NShTot=           0 NBatch=           0 AvBLen=         0.0
- IPart= 18 NShTot=           0 NBatch=           0 AvBLen=         0.0
- IPart=  7 NShTot=           0 NBatch=           0 AvBLen=         0.0
- IPart= 17 NShTot=           0 NBatch=           0 AvBLen=         0.0
- IPart= 21 NShTot=           0 NBatch=           0 AvBLen=         0.0
- IPart= 23 NShTot=           0 NBatch=           0 AvBLen=         0.0
- IPart= 14 NShTot=           0 NBatch=           0 AvBLen=         0.0
- IPart= 25 NShTot=           0 NBatch=           0 AvBLen=         0.0
- IPart=  0 NShTot=          25 NBatch=          25 AvBLen=         1.0
  IPart=  3 NShTot=           1 NBatch=           1 AvBLen=         1.0
+ IPart= 13 NShTot=           0 NBatch=           0 AvBLen=         0.0
+ IPart=  8 NShTot=           0 NBatch=           0 AvBLen=         0.0
+ IPart= 15 NShTot=           0 NBatch=           0 AvBLen=         0.0
  IPart=  2 NShTot=           5 NBatch=           5 AvBLen=         1.0
- IPart= 10 NShTot=           0 NBatch=           0 AvBLen=         0.0
+ IPart= 18 NShTot=           0 NBatch=           0 AvBLen=         0.0
+ IPart=  1 NShTot=          13 NBatch=          13 AvBLen=         1.0
+ IPart=  4 NShTot=           1 NBatch=           1 AvBLen=         1.0
+ IPart= 20 NShTot=           0 NBatch=           0 AvBLen=         0.0
+ IPart=  0 NShTot=          25 NBatch=          25 AvBLen=         1.0
  PrSmSu:  NxtVal=             29.
  ****** Core Hamiltonian ****** 
                 1             2             3             4             5 
@@ -1580,43 +1580,43 @@
  PRISM was handed   440987041 working-precision words and   666 shell-pairs
  PRISM was handed   440987041 working-precision words and   666 shell-pairs
  PRISM was handed   440987041 working-precision words and   666 shell-pairs
- IPart=  6 NShTot=          25 NBatch=           3 AvBLen=         8.3
- IPart=  2 NShTot=          25 NBatch=           3 AvBLen=         8.3
  PRISM was handed   440987041 working-precision words and   666 shell-pairs
- IPart=  4 NShTot=          25 NBatch=           3 AvBLen=         8.3
+ PRISM was handed   440987041 working-precision words and   666 shell-pairs
+ IPart= 12 NShTot=          24 NBatch=           3 AvBLen=         8.0
+ PRISM was handed   440987041 working-precision words and   666 shell-pairs
+ IPart=  5 NShTot=          25 NBatch=           3 AvBLen=         8.3
+ IPart= 17 NShTot=          23 NBatch=           3 AvBLen=         7.7
+ PRISM was handed   440987041 working-precision words and   666 shell-pairs
+ PRISM was handed   440987041 working-precision words and   666 shell-pairs
+ IPart= 22 NShTot=          23 NBatch=           3 AvBLen=         7.7
+ IPart= 14 NShTot=          23 NBatch=           3 AvBLen=         7.7
+ PRISM was handed   440987041 working-precision words and   666 shell-pairs
+ PRISM was handed   440987041 working-precision words and   666 shell-pairs
+ PRISM was handed   440987041 working-precision words and   666 shell-pairs
  IPart=  1 NShTot=          25 NBatch=           3 AvBLen=         8.3
+ IPart= 27 NShTot=          22 NBatch=           3 AvBLen=         7.3
+ IPart= 13 NShTot=          24 NBatch=           3 AvBLen=         8.0
+ IPart= 19 NShTot=          23 NBatch=           3 AvBLen=         7.7
  IPart= 16 NShTot=          23 NBatch=           3 AvBLen=         7.7
+ IPart= 23 NShTot=          23 NBatch=           3 AvBLen=         7.7
+ IPart=  3 NShTot=          25 NBatch=           3 AvBLen=         8.3
+ IPart=  8 NShTot=          25 NBatch=           3 AvBLen=         8.3
+ IPart= 10 NShTot=          25 NBatch=           3 AvBLen=         8.3
+ IPart=  7 NShTot=          25 NBatch=           3 AvBLen=         8.3
+ IPart= 26 NShTot=          22 NBatch=           3 AvBLen=         7.3
+ IPart= 11 NShTot=          25 NBatch=           3 AvBLen=         8.3
+ IPart= 24 NShTot=          22 NBatch=           3 AvBLen=         7.3
+ IPart=  6 NShTot=          25 NBatch=           3 AvBLen=         8.3
  PRISM was handed   440987041 working-precision words and   666 shell-pairs
  IPart=  9 NShTot=          25 NBatch=           3 AvBLen=         8.3
- PRISM was handed   440987041 working-precision words and   666 shell-pairs
- PRISM was handed   440987041 working-precision words and   666 shell-pairs
- PRISM was handed   440987041 working-precision words and   666 shell-pairs
- IPart= 21 NShTot=          23 NBatch=           3 AvBLen=         7.7
- IPart=  7 NShTot=          25 NBatch=           3 AvBLen=         8.3
- IPart= 14 NShTot=          23 NBatch=           3 AvBLen=         7.7
- IPart= 23 NShTot=          23 NBatch=           3 AvBLen=         7.7
- IPart= 15 NShTot=          23 NBatch=           3 AvBLen=         7.7
- PRISM was handed   440987041 working-precision words and   666 shell-pairs
- IPart= 13 NShTot=          24 NBatch=           3 AvBLen=         8.0
- IPart= 27 NShTot=          22 NBatch=           3 AvBLen=         7.3
- IPart=  3 NShTot=          25 NBatch=           3 AvBLen=         8.3
+ IPart=  2 NShTot=          25 NBatch=           3 AvBLen=         8.3
  IPart= 18 NShTot=          23 NBatch=           3 AvBLen=         7.7
- IPart= 24 NShTot=          22 NBatch=           3 AvBLen=         7.3
- IPart=  8 NShTot=          25 NBatch=           3 AvBLen=         8.3
- IPart= 12 NShTot=          24 NBatch=           3 AvBLen=         8.0
- IPart= 17 NShTot=          23 NBatch=           3 AvBLen=         7.7
- IPart=  5 NShTot=          25 NBatch=           3 AvBLen=         8.3
- IPart= 19 NShTot=          23 NBatch=           3 AvBLen=         7.7
+ IPart=  4 NShTot=          25 NBatch=           3 AvBLen=         8.3
  IPart= 25 NShTot=          22 NBatch=           3 AvBLen=         7.3
- IPart= 22 NShTot=          23 NBatch=           3 AvBLen=         7.7
- PRISM was handed   440987041 working-precision words and   666 shell-pairs
- IPart=  0 NShTot=          25 NBatch=           3 AvBLen=         8.3
+ IPart= 21 NShTot=          23 NBatch=           3 AvBLen=         7.7
+ IPart= 15 NShTot=          23 NBatch=           3 AvBLen=         7.7
  IPart= 20 NShTot=          23 NBatch=           3 AvBLen=         7.7
- IPart= 26 NShTot=          22 NBatch=           3 AvBLen=         7.3
- PRISM was handed   440987041 working-precision words and   666 shell-pairs
- PRISM was handed   440987041 working-precision words and   666 shell-pairs
- IPart= 10 NShTot=          25 NBatch=           3 AvBLen=         8.3
- IPart= 11 NShTot=          25 NBatch=           3 AvBLen=         8.3
+ IPart=  0 NShTot=          25 NBatch=           3 AvBLen=         8.3
  PrSmSu:  NxtVal=             29.
  FoFCou: FMM=F IPFlag=           0 FMFlag=      100000 FMFlg1=           0
          NFxFlg=           0 DoJE=F BraDBF=F KetDBF=T FulRan=T
@@ -3326,34 +3326,34 @@
  PRISM was handed   440944644 working-precision words and    45 shell-pairs
  PRISM was handed   440944644 working-precision words and    45 shell-pairs
  PRISM was handed   440944644 working-precision words and    45 shell-pairs
- IPart= 11 NShTot=           0 NBatch=           0 AvBLen=         0.0
- IPart=  5 NShTot=           0 NBatch=           0 AvBLen=         0.0
- IPart=  4 NShTot=           1 NBatch=           1 AvBLen=         1.0
- IPart=  6 NShTot=           0 NBatch=           0 AvBLen=         0.0
- IPart= 13 NShTot=           0 NBatch=           0 AvBLen=         0.0
- IPart= 22 NShTot=           0 NBatch=           0 AvBLen=         0.0
- IPart= 10 NShTot=           0 NBatch=           0 AvBLen=         0.0
- IPart= 12 NShTot=           0 NBatch=           0 AvBLen=         0.0
- IPart=  9 NShTot=           0 NBatch=           0 AvBLen=         0.0
- IPart= 24 NShTot=           0 NBatch=           0 AvBLen=         0.0
- IPart=  1 NShTot=          13 NBatch=          13 AvBLen=         1.0
- IPart= 16 NShTot=           0 NBatch=           0 AvBLen=         0.0
- IPart= 20 NShTot=           0 NBatch=           0 AvBLen=         0.0
- IPart= 17 NShTot=           0 NBatch=           0 AvBLen=         0.0
- IPart= 19 NShTot=           0 NBatch=           0 AvBLen=         0.0
- IPart=  3 NShTot=           1 NBatch=           1 AvBLen=         1.0
- IPart= 23 NShTot=           0 NBatch=           0 AvBLen=         0.0
- IPart= 21 NShTot=           0 NBatch=           0 AvBLen=         0.0
- IPart= 14 NShTot=           0 NBatch=           0 AvBLen=         0.0
- IPart=  8 NShTot=           0 NBatch=           0 AvBLen=         0.0
  IPart=  0 NShTot=          25 NBatch=          25 AvBLen=         1.0
- IPart= 15 NShTot=           0 NBatch=           0 AvBLen=         0.0
- IPart=  7 NShTot=           0 NBatch=           0 AvBLen=         0.0
  IPart= 18 NShTot=           0 NBatch=           0 AvBLen=         0.0
- IPart= 25 NShTot=           0 NBatch=           0 AvBLen=         0.0
+ IPart=  6 NShTot=           0 NBatch=           0 AvBLen=         0.0
+ IPart= 16 NShTot=           0 NBatch=           0 AvBLen=         0.0
+ IPart= 12 NShTot=           0 NBatch=           0 AvBLen=         0.0
+ IPart= 21 NShTot=           0 NBatch=           0 AvBLen=         0.0
+ IPart= 23 NShTot=           0 NBatch=           0 AvBLen=         0.0
+ IPart= 17 NShTot=           0 NBatch=           0 AvBLen=         0.0
+ IPart= 10 NShTot=           0 NBatch=           0 AvBLen=         0.0
+ IPart=  8 NShTot=           0 NBatch=           0 AvBLen=         0.0
+ IPart= 14 NShTot=           0 NBatch=           0 AvBLen=         0.0
+ IPart= 19 NShTot=           0 NBatch=           0 AvBLen=         0.0
+ IPart=  7 NShTot=           0 NBatch=           0 AvBLen=         0.0
+ IPart=  3 NShTot=           1 NBatch=           1 AvBLen=         1.0
  IPart= 27 NShTot=           0 NBatch=           0 AvBLen=         0.0
+ IPart=  5 NShTot=           0 NBatch=           0 AvBLen=         0.0
+ IPart= 13 NShTot=           0 NBatch=           0 AvBLen=         0.0
+ IPart= 11 NShTot=           0 NBatch=           0 AvBLen=         0.0
+ IPart= 24 NShTot=           0 NBatch=           0 AvBLen=         0.0
+ IPart= 25 NShTot=           0 NBatch=           0 AvBLen=         0.0
+ IPart= 22 NShTot=           0 NBatch=           0 AvBLen=         0.0
+ IPart=  1 NShTot=          13 NBatch=          13 AvBLen=         1.0
  IPart= 26 NShTot=           0 NBatch=           0 AvBLen=         0.0
  IPart=  2 NShTot=           5 NBatch=           5 AvBLen=         1.0
+ IPart=  9 NShTot=           0 NBatch=           0 AvBLen=         0.0
+ IPart= 20 NShTot=           0 NBatch=           0 AvBLen=         0.0
+ IPart= 15 NShTot=           0 NBatch=           0 AvBLen=         0.0
+ IPart=  4 NShTot=           1 NBatch=           1 AvBLen=         1.0
  PrSmSu:  NxtVal=             29.
  SVDSVc IOpt=   1 NormSV=T IR=1
  SVDSVc V= 2.29D+00 1.71D+00 1.71D+00 1.71D+00 1.28D+00 1.01D+00 1.01D+00 1.01D+00 8.71D-01 8.71D-01
@@ -3478,7 +3478,7 @@
  IGWInf(32) =           0         
  IAtBtD: 
               1
- Leave Link  302 at Wed Nov 16 17:23:07 2022, MaxMem= 12348030976 cpu:              24.8 elap:               1.0
+ Leave Link  302 at Thu Nov 17 11:34:07 2022, MaxMem= 12348030976 cpu:               6.8 elap:               0.3
  (Enter /sw/contrib/gaussian/g16/C01_v2/g16/l303.exe)
  DipDrv:  MaxL=1.
  DipPsm:  J= 1 NJ= 4 MaxL=1 MMat= 4 MaxMat= 4.
@@ -3641,7 +3641,7 @@
      15   0.000000D+00
      16   0.000000D+00
      17   0.000000D+00
- Leave Link  303 at Wed Nov 16 17:23:07 2022, MaxMem= 12348030976 cpu:               2.3 elap:               0.1
+ Leave Link  303 at Thu Nov 17 11:34:07 2022, MaxMem= 12348030976 cpu:               1.3 elap:               0.1
  (Enter /sw/contrib/gaussian/g16/C01_v2/g16/l308.exe)
  Dipole velocity integrals will be written to rwf   572.
  Entering OneElI...
@@ -4171,7 +4171,7 @@
                16            17 
      16  0.000000D+00
      17  0.000000D+00  0.000000D+00
- Leave Link  308 at Wed Nov 16 17:23:07 2022, MaxMem= 12348030976 cpu:               2.9 elap:               0.2
+ Leave Link  308 at Thu Nov 17 11:34:07 2022, MaxMem= 12348030976 cpu:               0.8 elap:               0.1
  (Enter /sw/contrib/gaussian/g16/C01_v2/g16/l319.exe)
  Entering OneElI...
  Calculate spin-orbit coupling integrals
@@ -4313,7 +4313,7 @@
                16            17 
      16  0.000000D+00
      17  0.000000D+00  0.000000D+00
- Leave Link  319 at Wed Nov 16 17:23:08 2022, MaxMem= 12348030976 cpu:               2.8 elap:               0.2
+ Leave Link  319 at Thu Nov 17 11:34:07 2022, MaxMem= 12348030976 cpu:               0.8 elap:               0.1
  (Enter /sw/contrib/gaussian/g16/C01_v2/g16/l401.exe)
  ExpMin= 1.05D-02 ExpMax= 6.81D+06 ExpMxC= 4.13D+03 IAcc=3 IRadAn=         5 AccDes= 0.00D+00
  Harris functional with IExCor= 1009 and IRadAn=       5 diagonalized for initial guess.
@@ -4324,9 +4324,9 @@
          wScrn=  0.000000 ICntrl=       500 IOpCl=  0 I1Cent=   200000004 NGrid=           0
          NMat0=    1 NMatS0=      1 NMatT0=    0 NMatD0=    1 NMtDS0=    0 NMtDT0=    0
  Symmetry not used in FoFCou.
- Harris En= -679.733789805571    
+ Harris En= -679.733789805569    
  JPrj=0 DoOrth=F DoCkMO=F.
- Leave Link  401 at Wed Nov 16 17:23:09 2022, MaxMem= 12348030976 cpu:              12.2 elap:               0.6
+ Leave Link  401 at Thu Nov 17 11:34:07 2022, MaxMem= 12348030976 cpu:               3.9 elap:               0.2
  (Enter /sw/contrib/gaussian/g16/C01_v2/g16/l502.exe)
  Keep R1 ints in memory in canonical form, NReq=24171290.
  FoFCou: FMM=F IPFlag=           0 FMFlag=           0 FMFlg1=           0
@@ -4344,9 +4344,9 @@
  No special actions if energy rises.
 
  Cycle   1  Pass 1  IDiag  1:
- E= -679.603537224916    
+ E= -679.603537224914    
  DIIS: error= 2.36D-02 at cycle   1 NSaved=   1.
- NSaved= 1 IEnMin= 1 EnMin= -679.603537224916     IErMin= 1 ErrMin= 2.36D-02
+ NSaved= 1 IEnMin= 1 EnMin= -679.603537224914     IErMin= 1 ErrMin= 2.36D-02
  ErrMax= 2.36D-02  0.00D+00 EMaxC= 1.00D-01 BMatC= 1.70D-02 BMatP= 1.70D-02
  IDIUse=3 WtCom= 7.64D-01 WtEn= 2.36D-01
  Coeff-Com:  0.100D+01
@@ -4357,9 +4357,9 @@
  RMSDP=8.72D-03 MaxDP=4.58D-02              OVMax= 0.00D+00
 
  Cycle   2  Pass 1  IDiag  1:
- E= -679.613451270713     Delta-E=       -0.009914045797 Rises=F Damp=F
+ E= -679.613451270711     Delta-E=       -0.009914045797 Rises=F Damp=F
  DIIS: error= 7.38D-03 at cycle   2 NSaved=   2.
- NSaved= 2 IEnMin= 2 EnMin= -679.613451270713     IErMin= 2 ErrMin= 7.38D-03
+ NSaved= 2 IEnMin= 2 EnMin= -679.613451270711     IErMin= 2 ErrMin= 7.38D-03
  ErrMax= 7.38D-03  0.00D+00 EMaxC= 1.00D-01 BMatC= 1.62D-03 BMatP= 1.70D-02
  IDIUse=3 WtCom= 9.26D-01 WtEn= 7.38D-02
  Coeff-Com:  0.226D+00 0.774D+00
@@ -4369,9 +4369,9 @@
  RMSDP=2.25D-03 MaxDP=1.17D-02 DE=-9.91D-03 OVMax= 0.00D+00
 
  Cycle   3  Pass 1  IDiag  1:
- E= -679.614548047411     Delta-E=       -0.001096776698 Rises=F Damp=F
+ E= -679.614548047408     Delta-E=       -0.001096776698 Rises=F Damp=F
  DIIS: error= 4.67D-04 at cycle   3 NSaved=   3.
- NSaved= 3 IEnMin= 3 EnMin= -679.614548047411     IErMin= 3 ErrMin= 4.67D-04
+ NSaved= 3 IEnMin= 3 EnMin= -679.614548047408     IErMin= 3 ErrMin= 4.67D-04
  ErrMax= 4.67D-04  0.00D+00 EMaxC= 1.00D-01 BMatC= 7.32D-06 BMatP= 1.62D-03
  IDIUse=3 WtCom= 9.95D-01 WtEn= 4.67D-03
  Coeff-Com: -0.772D-02 0.414D-01 0.966D+00
@@ -4381,9 +4381,9 @@
  RMSDP=1.47D-04 MaxDP=7.45D-04 DE=-1.10D-03 OVMax= 0.00D+00
 
  Cycle   4  Pass 1  IDiag  1:
- E= -679.614553145473     Delta-E=       -0.000005098062 Rises=F Damp=F
+ E= -679.614553145471     Delta-E=       -0.000005098063 Rises=F Damp=F
  DIIS: error= 4.14D-06 at cycle   4 NSaved=   4.
- NSaved= 4 IEnMin= 4 EnMin= -679.614553145473     IErMin= 4 ErrMin= 4.14D-06
+ NSaved= 4 IEnMin= 4 EnMin= -679.614553145471     IErMin= 4 ErrMin= 4.14D-06
  ErrMax= 4.14D-06  0.00D+00 EMaxC= 1.00D-01 BMatC= 5.36D-10 BMatP= 7.32D-06
  IDIUse=1 WtCom= 1.00D+00 WtEn= 0.00D+00
  Coeff-Com: -0.418D-04-0.610D-03 0.104D-02 0.100D+01
@@ -4392,9 +4392,9 @@
  RMSDP=1.38D-06 MaxDP=7.49D-06 DE=-5.10D-06 OVMax= 0.00D+00
 
  Cycle   5  Pass 1  IDiag  1:
- E= -679.614553145851     Delta-E=       -0.000000000378 Rises=F Damp=F
+ E= -679.614553145849     Delta-E=       -0.000000000378 Rises=F Damp=F
  DIIS: error= 3.82D-08 at cycle   5 NSaved=   5.
- NSaved= 5 IEnMin= 5 EnMin= -679.614553145851     IErMin= 5 ErrMin= 3.82D-08
+ NSaved= 5 IEnMin= 5 EnMin= -679.614553145849     IErMin= 5 ErrMin= 3.82D-08
  ErrMax= 3.82D-08  0.00D+00 EMaxC= 1.00D-01 BMatC= 4.64D-14 BMatP= 5.36D-10
  IDIUse=1 WtCom= 1.00D+00 WtEn= 0.00D+00
  Coeff-Com:  0.357D-05-0.507D-05-0.371D-03-0.753D-02 0.101D+01
@@ -4403,29 +4403,29 @@
  RMSDP=1.16D-08 MaxDP=8.25D-08 DE=-3.78D-10 OVMax= 0.00D+00
 
  Cycle   6  Pass 1  IDiag  1:
- E= -679.614553145851     Delta-E=       -0.000000000000 Rises=F Damp=F
- DIIS: error= 6.93D-10 at cycle   6 NSaved=   6.
- NSaved= 6 IEnMin= 6 EnMin= -679.614553145851     IErMin= 6 ErrMin= 6.93D-10
- ErrMax= 6.93D-10  0.00D+00 EMaxC= 1.00D-01 BMatC= 7.86D-18 BMatP= 4.64D-14
+ E= -679.614553145848     Delta-E=        0.000000000001 Rises=F Damp=F
+ DIIS: error= 6.94D-10 at cycle   6 NSaved=   6.
+ NSaved= 6 IEnMin= 5 EnMin= -679.614553145849     IErMin= 6 ErrMin= 6.94D-10
+ ErrMax= 6.94D-10  0.00D+00 EMaxC= 1.00D-01 BMatC= 7.86D-18 BMatP= 4.64D-14
  IDIUse=1 WtCom= 1.00D+00 WtEn= 0.00D+00
  Coeff-Com: -0.195D-06 0.174D-06 0.182D-04 0.492D-03-0.356D-01 0.104D+01
  Coeff:     -0.195D-06 0.174D-06 0.182D-04 0.492D-03-0.356D-01 0.104D+01
  Gap=     1.169 Goal=   None    Shift=    0.000
- RMSDP=2.55D-10 MaxDP=1.70D-09 DE=-2.27D-13 OVMax= 0.00D+00
+ RMSDP=2.55D-10 MaxDP=1.70D-09 DE= 9.09D-13 OVMax= 0.00D+00
 
  SCF Done:  E(RPBE1PBE) =  -679.614553146     A.U. after    6 cycles
             NFock=  6  Conv=0.25D-09     -V/T= 1.9756
  KE= 6.965804352776D+02 PE=-1.616462254837D+03 EE= 2.402672664137D+02
- Leave Link  502 at Wed Nov 16 17:23:10 2022, MaxMem= 12348030976 cpu:              16.2 elap:               0.7
+ Leave Link  502 at Thu Nov 17 11:34:08 2022, MaxMem= 12348030976 cpu:              14.6 elap:               0.6
  (Enter /sw/contrib/gaussian/g16/C01_v2/g16/l801.exe)
  DoSCS=F DFT=T ScalE2(SS,OS)=  1.000000  1.000000
  Range of M.O.s used for correlation:     1    17
  NBasis=    17 NAE=     9 NBE=     9 NFC=     0 NFV=     0
  NROrb=     17 NOA=     9 NOB=     9 NVA=     8 NVB=     8
- Leave Link  801 at Wed Nov 16 17:23:10 2022, MaxMem= 12348030976 cpu:               1.5 elap:               0.1
+ Leave Link  801 at Thu Nov 17 11:34:08 2022, MaxMem= 12348030976 cpu:               0.6 elap:               0.0
  (Enter /sw/contrib/gaussian/g16/C01_v2/g16/l914.exe)
  RHF ground state
- Keep R1, R2, and R3 ints in memory in canonical form, NReq=52392124.
+ Keep R1, R2, and R3 ints in memory in canonical form, NReq=27496508.
  FoFCou: FMM=F IPFlag=           0 FMFlag=           0 FMFlg1=           0
          NFxFlg=           0 DoJE=F BraDBF=F KetDBF=F FulRan=T
          wScrn=  0.000000 ICntrl=       600 IOpCl=  0 I1Cent=           0 NGrid=           0
@@ -4434,239 +4434,104 @@
  Two-electron integral symmetry not used.
  MDV= 12348030976 DFT=T DoStab=F Mixed=T DoRPA=T DoScal=F NonHer=T
  Making orbital integer symmetry assigments:
-   144 initial guesses have been made.
+    24 initial guesses have been made.
  Convergence on wavefunction:    0.001000000000000
  Davidson Disk Diagonalization:  ConvIn= 1.00D-03 SkipCon=T Conv= 1.00D-03.
- Max sub-space:   432 roots to seek:   160 dimension of matrix:          144
- *** WARNING: Number of orthogonal guesses is          144
- Iteration     1 Dimension   144 NMult     0 NNew    144
- CISAX will form   144 AO SS matrices at one time.
- NMat=   144 NSing=    72 JSym2X= 0.
- New state      1 was old state      2
- New state      2 was old state      4
- New state      3 was old state      6
- New state      4 was old state      5
- New state      5 was old state      1
+ Max sub-space:   432 roots to seek:    24 dimension of matrix:          144
+ Iteration     1 Dimension    24 NMult     0 NNew     24
+ CISAX will form    24 AO SS matrices at one time.
+ NMat=    24 NSing=    12 JSym2X= 0.
+ New state      1 was old state      4
+ New state      2 was old state      6
+ New state      3 was old state      2
+ New state      4 was old state      1
  New state      6 was old state      3
  New state      7 was old state     22
- New state      8 was old state     14
- New state      9 was old state     18
- New state     10 was old state     24
+ New state      8 was old state     10
+ New state      9 was old state     12
+ New state     10 was old state     16
  New state     11 was old state     20
- New state     13 was old state     11
- New state     14 was old state     19
- New state     15 was old state     23
- New state     16 was old state     17
- New state     17 was old state     21
- New state     18 was old state      8
- New state     19 was old state     13
- New state     20 was old state      9
- New state     21 was old state     10
- New state     22 was old state     16
- New state     23 was old state     15
- New state     24 was old state      7
- New state     25 was old state     28
- New state     27 was old state     30
- New state     28 was old state     29
- New state     29 was old state     25
- New state     30 was old state     27
- New state     31 was old state     48
- New state     32 was old state     46
- New state     33 was old state     40
- New state     34 was old state     50
- New state     35 was old state     44
- New state     36 was old state     38
- New state     38 was old state     34
- New state     39 was old state     49
- New state     40 was old state     36
- New state     41 was old state     42
- New state     42 was old state     45
- New state     43 was old state     33
- New state     44 was old state     43
- New state     45 was old state     35
- New state     46 was old state     41
- New state     48 was old state     31
- New state     49 was old state     32
- New state     50 was old state     52
- New state     51 was old state     56
- New state     52 was old state     54
- New state     53 was old state     51
- New state     54 was old state     53
- New state     56 was old state     57
- New state     57 was old state     58
- New state     58 was old state     39
- New state     59 was old state     60
- New state     60 was old state     62
- New state     61 was old state     64
- New state     62 was old state     59
- New state     63 was old state     61
- New state     64 was old state     63
- New state     65 was old state     66
- New state     66 was old state     68
- New state     67 was old state     70
- New state     68 was old state     65
- New state     70 was old state     67
- New state     71 was old state     72
- New state     72 was old state     86
- New state     73 was old state     80
- New state     74 was old state     88
- New state     75 was old state     76
- New state     76 was old state     84
- New state     77 was old state     75
- New state     79 was old state     74
- New state     80 was old state     73
+ New state     12 was old state     14
  Excitation Energies [eV] at current iteration:
- Root      1 :    29.354403889151360
- Root      2 :    29.354403889164180
- Root      3 :    29.354403889259270
- Root      4 :    29.734851497787920
- Root      5 :    29.734851497810350
- Root      6 :    29.734851497887170
- Root      7 :    33.197424144049420
- Root      8 :    33.580381477578510
- Root      9 :    33.580381477709000
- Root     10 :    33.580381478038680
- Root     11 :    33.580381478527550
- Root     12 :    33.580381478527950
- Root     13 :    33.842151898186540
- Root     14 :    33.842151898414080
- Root     15 :    33.842151899259500
- Root     16 :    33.842151900054840
- Root     17 :    33.842151900363770
- Root     18 :    33.862590361512220
- Root     19 :    33.862590361523960
- Root     20 :    33.862590361562240
- Root     21 :    33.862590361617340
- Root     22 :    33.862590361647230
- Root     23 :    33.862590361720710
- Root     24 :    35.003913270859590
- Root     25 :    38.359861525978760
- Root     26 :    38.359861527576180
- Root     27 :    38.359861528913430
- Root     28 :    38.569644990293360
- Root     29 :    38.569644992146200
- Root     30 :    38.569644994606210
- Root     31 :    48.105786237411210
- Root     32 :    49.401093987361380
- Root     33 :    49.401093987449380
- Root     34 :    49.401093987790380
- Root     35 :    49.401093988247250
- Root     36 :    49.401093988302640
- Root     37 :    50.270277510187500
- Root     38 :    50.270277510221970
- Root     39 :    50.270277510387910
- Root     40 :    50.270277510415310
- Root     41 :    50.270277510453210
- Root     42 :    50.270277510458380
- Root     43 :    50.327332615760600
- Root     44 :    50.327332615950430
- Root     45 :    50.327332616606750
- Root     46 :    50.327332617283250
- Root     47 :    50.327332617579500
- Root     48 :    50.415197559220200
- Root     49 :    50.422894012261000
- Root     50 :    54.338509136017260
- Root     51 :    54.338509136086120
- Root     52 :    54.338509136158110
- Root     53 :    54.667332142405410
- Root     54 :    54.667332143078980
- Root     55 :    54.667332143635810
- Root     56 :    57.444616476561610
- Root     57 :    59.094289888493810
- Root     58 :    59.836312511341950
- Root     59 :    70.212715491759940
- Root     60 :    70.212715492045150
- Root     61 :    70.212715492056250
- Root     62 :    71.462955005504570
- Root     63 :    71.462955006223670
- Root     64 :    71.462955007059490
- Root     65 :   343.226040061093500
- Root     66 :   343.226040061429300
- Root     67 :   343.226040061448400
- Root     68 :   343.373025492488600
- Root     69 :   343.373025492834900
- Root     70 :   343.373025492846000
- Root     71 :   347.254527591696800
- Root     72 :   347.394708488848600
- Root     73 :   347.394708488890200
- Root     74 :   347.394708489199000
- Root     75 :   347.394708489458300
- Root     76 :   347.394708489486000
- Root     77 :   347.515721258400800
- Root     78 :   347.515721258401000
- Root     79 :   347.515721258436400
- Root     80 :   347.515721258444300
- Root     81 :   347.515721258727800
- Root     82 :   347.515721258729400
- Root     83 :   347.555312265357700
- Root     84 :   347.555312265560600
- Root     85 :   347.555312266188800
- Root     86 :   347.555312266880300
- Root     87 :   347.555312267149100
- Root     88 :   348.443665328785800
- Root     89 :   352.266901769960900
- Root     90 :   352.266901771984000
- Root     91 :   352.266901773610400
- Root     92 :   352.382273036894300
- Root     93 :   352.382273039537700
- Root     94 :   352.382273043199900
- Root     95 :   361.601672924895900
- Root     96 :   362.274845827649400
- Root     97 :   362.274845827773000
- Root     98 :   362.274845828206500
- Root     99 :   362.274845828612200
- Root    100 :   362.274845828664400
- Root    101 :   362.909905726818200
- Root    102 :   362.909905726820500
- Root    103 :   362.909905726945100
- Root    104 :   362.909905726951900
- Root    105 :   362.909905727286900
- Root    106 :   362.909905727289800
- Root    107 :   363.070012895635600
- Root    108 :   363.070012895909400
- Root    109 :   363.070012896941200
- Root    110 :   363.070012897947600
- Root    111 :   363.070012898362500
- Root    112 :   370.550621384821900
- Root    113 :   425.555202561709600
- Root    114 :   425.920520256219600
- Root    115 :   429.764975415498300
- Root    116 :   429.764975415912100
- Root    117 :   429.764975416169100
- Root    118 :   429.913213759642600
- Root    119 :   429.913213760730700
- Root    120 :   429.913213761895000
- Root    121 :   434.597299336443300
- Root    122 :   434.791094026452600
- Root    123 :   444.886713516772500
- Root    124 :   444.886713517318000
- Root    125 :   444.886713517730100
- Root    126 :   445.637032554093100
- Root    127 :   445.637032555601300
- Root    128 :   445.637032557454300
- Root    129 :  3980.722425216038000
- Root    130 :  3980.939334158565000
- Root    131 :  3984.888279786476000
- Root    132 :  3984.888279786793000
- Root    133 :  3984.888279786850000
- Root    134 :  3985.073032737853000
- Root    135 :  3985.073032738210000
- Root    136 :  3985.073032738277000
- Root    137 :  3989.810197313833000
- Root    138 :  3989.891869186683000
- Root    139 :  3999.448463756608000
- Root    140 :  3999.448463757082000
- Root    141 :  3999.448463757379000
- Root    142 :  4000.474283143271000
- Root    143 :  4000.474283143726000
- Root    144 :  4000.474283144008000
- Vector  36 SDiff=1.33D+01 TDiff=1.10D+01 assumed to be triplet.
- Vector  38 SDiff=8.50D+00 TDiff=1.20D+01 assumed to be singlet.
- Vector  40 SDiff=1.19D+01 TDiff=7.04D+00 assumed to be triplet.
- Vector  76 SDiff=1.36D+01 TDiff=1.07D+01 assumed to be triplet.
- Vector  78 SDiff=8.45D+00 TDiff=1.19D+01 assumed to be singlet.
- Vector  80 SDiff=1.18D+01 TDiff=7.05D+00 assumed to be triplet.
- Convergence achieved for final wavefunctions.
+ Root      1 :    29.397508346725600
+ Root      2 :    29.397508348749960
+ Root      3 :    29.397508351062670
+ Root      4 :    29.746989400424880
+ Root      5 :    29.746989405664200
+ Root      6 :    29.746989409731540
+ Root      7 :    33.379697947918930
+ Root      8 :    33.653726442610210
+ Root      9 :    33.653726445965690
+ Root     10 :    33.653726448897810
+ Root     11 :    33.653726461192670
+ Root     12 :    33.653726479039280
+ Root     13 :    33.879243268936730
+ Root     14 :    33.879243311533830
+ Root     15 :    33.879243330719190
+ Root     16 :    33.879243336683090
+ Root     17 :    33.879243341470670
+ Root     18 :    33.900086618690350
+ Root     19 :    33.900086618695430
+ Root     20 :    33.900086618704680
+ Root     21 :    33.900086618717030
+ Root     22 :    33.900086618903960
+ Root     23 :    33.900086618906000
+ Root     24 :    35.417773424825770
+ Iteration     2 Dimension    36 NMult    24 NNew     12
+ CISAX will form    12 AO SS matrices at one time.
+ NMat=    12 NSing=     6 JSym2X= 0.
+ Root      1 not converged, maximum delta is    0.181790138954684
+ New state      2 was old state      3
+ Root      2 not converged, maximum delta is    0.430756408583534
+ New state      3 was old state      2
+ Root      3 not converged, maximum delta is    0.459195906822665
+ Root      4 not converged, maximum delta is    0.391710375997570
+ New state      5 was old state      6
+ Root      5 not converged, maximum delta is    0.547928206701957
+ New state      6 was old state      5
+ Root      6 not converged, maximum delta is    0.313549486167761
+ Excitation Energies [eV] at current iteration:
+ Root      1 :    29.354428341375230   Change is   -0.043080005350373
+ Root      2 :    29.354428350678850   Change is   -0.043080000383823
+ Root      3 :    29.354428359032440   Change is   -0.043079989717529
+ Root      4 :    29.734868339390650   Change is   -0.012121061034224
+ Root      5 :    29.734868370506660   Change is   -0.012121039224886
+ Root      6 :    29.734868384800200   Change is   -0.012121020863997
+ Iteration     3 Dimension    48 NMult    36 NNew     12
+ CISAX will form    12 AO SS matrices at one time.
+ NMat=    12 NSing=     6 JSym2X= 0.
+ Root      1 not converged, maximum delta is    0.016445516312151
+ Root      2 not converged, maximum delta is    0.313720315486452
+ Root      3 not converged, maximum delta is    0.313814834628850
+ Root      4 not converged, maximum delta is    0.349479808672003
+ New state      5 was old state      6
+ Root      5 not converged, maximum delta is    0.328963532270749
+ New state      6 was old state      5
+ Root      6 not converged, maximum delta is    0.310182734228591
+ Excitation Energies [eV] at current iteration:
+ Root      1 :    29.354403898069540   Change is   -0.000024443305692
+ Root      2 :    29.354403906039660   Change is   -0.000024444639186
+ Root      3 :    29.354403910036130   Change is   -0.000024448996301
+ Root      4 :    29.734851504425080   Change is   -0.000016834965573
+ Root      5 :    29.734851511332130   Change is   -0.000016873468072
+ Root      6 :    29.734851515842190   Change is   -0.000016854664470
+ Iteration     4 Dimension    55 NMult    48 NNew      7
+ CISAX will form     7 AO SS matrices at one time.
+ NMat=     7 NSing=     3 JSym2X= 0.
+ Root      1 not converged, maximum delta is    0.012824439396985
+ Root      2 not converged, maximum delta is    0.068251402905356
+ Root      3 not converged, maximum delta is    0.071355739050074
+ Root      4 not converged, maximum delta is    0.013271476042456
+ Root      5 not converged, maximum delta is    0.017284730761810
+ Root      6 not converged, maximum delta is    0.013346880686012
+ Excitation Energies [eV] at current iteration:
+ Root      1 :    29.354403891152310   Change is   -0.000000006917231
+ Root      2 :    29.354403899888010   Change is   -0.000000006151649
+ Root      3 :    29.354403902785350   Change is   -0.000000007250781
+ Root      4 :    29.734851494717410   Change is   -0.000000009707667
+ Root      5 :    29.734851502050790   Change is   -0.000000009281333
+ Root      6 :    29.734851506310210   Change is   -0.000000009531979
+ Convergence achieved on expansion vectors.
  ***********************************************************************
  Excited states from <AA,BB:AA,BB> singles matrix:
  ***********************************************************************
@@ -4675,661 +4540,101 @@
  Ground to excited state transition densities written to RWF  633
  Ground to excited state transition electric dipole moments (Au):
        state          X           Y           Z        Dip. S.      Osc.
-         1        -0.0000     -0.0000     -0.0000      0.0000      0.0000
-         2        -0.0000     -0.0000     -0.0000      0.0000      0.0000
-         3        -0.0000     -0.0000     -0.0000      0.0000      0.0000
-         4        -0.3888     -0.0398      0.0159      0.1530      0.1115
-         5        -0.0036     -0.1146     -0.3740      0.1530      0.1115
-         6         0.0427     -0.3719      0.1135      0.1530      0.1115
-         7        -0.0000     -0.0000     -0.0000      0.0000      0.0000
-         8        -0.0000     -0.0000     -0.0000      0.0000      0.0000
-         9        -0.0000     -0.0000     -0.0000      0.0000      0.0000
-        10        -0.0000     -0.0000     -0.0000      0.0000      0.0000
-        11        -0.0000     -0.0000     -0.0000      0.0000      0.0000
-        12        -0.0000     -0.0000     -0.0000      0.0000      0.0000
-        13         0.0000     -0.0000      0.0000      0.0000      0.0000
-        14        -0.0000      0.0000      0.0000      0.0000      0.0000
-        15         0.0000     -0.0000     -0.0000      0.0000      0.0000
-        16         0.0000     -0.0000      0.0000      0.0000      0.0000
-        17         0.0000      0.0000      0.0000      0.0000      0.0000
-        18        -0.0000     -0.0000     -0.0000      0.0000      0.0000
-        19         0.0000      0.0000      0.0000      0.0000      0.0000
-        20        -0.0000      0.0000      0.0000      0.0000      0.0000
-        21        -0.0000     -0.0000     -0.0000      0.0000      0.0000
-        22        -0.0000     -0.0000     -0.0000      0.0000      0.0000
-        23        -0.0000     -0.0000     -0.0000      0.0000      0.0000
-        24        -0.0000      0.0000     -0.0000      0.0000      0.0000
-        25        -0.0000     -0.0000     -0.0000      0.0000      0.0000
-        26        -0.0000     -0.0000     -0.0000      0.0000      0.0000
-        27        -0.0000     -0.0000     -0.0000      0.0000      0.0000
-        28         0.1347      0.0019     -0.0444      0.0201      0.0190
-        29         0.0417      0.0439      0.1282      0.0201      0.0190
-        30        -0.0155      0.1348     -0.0412      0.0201      0.0190
-        31        -0.0000     -0.0000     -0.0000      0.0000      0.0000
-        32        -0.0000     -0.0000     -0.0000      0.0000      0.0000
-        33        -0.0000     -0.0000     -0.0000      0.0000      0.0000
-        34        -0.0000     -0.0000     -0.0000      0.0000      0.0000
-        35        -0.0000     -0.0000     -0.0000      0.0000      0.0000
-        36        -0.0000     -0.0000      0.0000      0.0000      0.0000
-        37        -0.0000     -0.0000      0.0000      0.0000      0.0000
-        38         0.0000     -0.0000     -0.0000      0.0000      0.0000
-        39         0.0000      0.0000      0.0000      0.0000      0.0000
-        40        -0.0000      0.0000      0.0000      0.0000      0.0000
+         1         0.0000      0.0000     -0.0000      0.0000      0.0000
+         2         0.0000      0.0000     -0.0000      0.0000      0.0000
+         3         0.0000      0.0000     -0.0000      0.0000      0.0000
+         4        -0.1693      0.0197     -0.3521      0.1530      0.1115
+         5        -0.3069     -0.2007      0.1363      0.1530      0.1115
+         6         0.1738     -0.3352     -0.1023      0.1530      0.1115
  Ground to excited state transition velocity dipole moments (Au):
        state          X           Y           Z        Dip. S.      Osc.
-         1         0.0000      0.0000      0.0000      0.0000      0.0000
-         2         0.0000      0.0000      0.0000      0.0000      0.0000
-         3         0.0000      0.0000      0.0000      0.0000      0.0000
-         4         0.4068      0.0417     -0.0167      0.1675      0.1022
-         5         0.0038      0.1199      0.3913      0.1675      0.1022
-         6        -0.0447      0.3891     -0.1188      0.1675      0.1022
-         7         0.0000      0.0000      0.0000      0.0000      0.0000
-         8         0.0000      0.0000      0.0000      0.0000      0.0000
-         9         0.0000      0.0000      0.0000      0.0000      0.0000
-        10         0.0000      0.0000      0.0000      0.0000      0.0000
-        11         0.0000      0.0000      0.0000      0.0000      0.0000
-        12         0.0000      0.0000      0.0000      0.0000      0.0000
-        13        -0.0000     -0.0000     -0.0000      0.0000      0.0000
-        14         0.0000     -0.0000     -0.0000      0.0000      0.0000
-        15        -0.0000      0.0000      0.0000      0.0000      0.0000
-        16        -0.0000      0.0000     -0.0000      0.0000      0.0000
-        17        -0.0000     -0.0000     -0.0000      0.0000      0.0000
-        18         0.0000      0.0000      0.0000      0.0000      0.0000
-        19        -0.0000      0.0000     -0.0000      0.0000      0.0000
-        20         0.0000     -0.0000     -0.0000      0.0000      0.0000
-        21         0.0000      0.0000      0.0000      0.0000      0.0000
-        22         0.0000      0.0000      0.0000      0.0000      0.0000
-        23         0.0000      0.0000      0.0000      0.0000      0.0000
-        24         0.0000     -0.0000      0.0000      0.0000      0.0000
-        25         0.0000      0.0000      0.0000      0.0000      0.0000
-        26         0.0000      0.0000      0.0000      0.0000      0.0000
-        27         0.0000      0.0000      0.0000      0.0000      0.0000
-        28        -0.2087     -0.0030      0.0689      0.0483      0.0227
-        29        -0.0646     -0.0681     -0.1988      0.0483      0.0227
-        30         0.0240     -0.2090      0.0638      0.0483      0.0227
-        31         0.0000      0.0000      0.0000      0.0000      0.0000
-        32         0.0000      0.0000      0.0000      0.0000      0.0000
-        33         0.0000      0.0000      0.0000      0.0000      0.0000
-        34         0.0000      0.0000      0.0000      0.0000      0.0000
-        35         0.0000      0.0000      0.0000      0.0000      0.0000
-        36        -0.0000      0.0000     -0.0000      0.0000      0.0000
-        37         0.0000     -0.0000     -0.0000      0.0000      0.0000
-        38         0.0000      0.0000      0.0000      0.0000      0.0000
-        39         0.0000      0.0000     -0.0000      0.0000      0.0000
-        40         0.0000      0.0000     -0.0000      0.0000      0.0000
+         1         0.0000     -0.0000      0.0000      0.0000      0.0000
+         2        -0.0000     -0.0000     -0.0000      0.0000      0.0000
+         3         0.0000     -0.0000      0.0000      0.0000      0.0000
+         4         0.1771     -0.0206      0.3684      0.1675      0.1022
+         5         0.3211      0.2100     -0.1426      0.1675      0.1022
+         6        -0.1819      0.3507      0.1070      0.1675      0.1022
  Ground to excited state transition magnetic dipole moments (Au):
        state          X           Y           Z
-         1         0.0000      0.0000      0.0000
-         2         0.0000      0.0000      0.0000
+         1         0.0000     -0.0000      0.0000
+         2         0.0000      0.0000     -0.0000
          3         0.0000      0.0000      0.0000
-         4         0.0000     -0.0000     -0.0000
+         4        -0.0000     -0.0000     -0.0000
          5         0.0000     -0.0000      0.0000
          6         0.0000      0.0000      0.0000
-         7         0.0000      0.0000      0.0000
-         8         0.0000      0.0000      0.0000
-         9         0.0000      0.0000      0.0000
-        10         0.0000      0.0000      0.0000
-        11         0.0000      0.0000      0.0000
-        12         0.0000      0.0000      0.0000
-        13         0.0000     -0.0000      0.0000
-        14        -0.0000      0.0000     -0.0000
-        15        -0.0000     -0.0000     -0.0000
-        16         0.0000      0.0000     -0.0000
-        17         0.0000     -0.0000     -0.0000
-        18         0.0000      0.0000      0.0000
-        19        -0.0000     -0.0000     -0.0000
-        20         0.0000     -0.0000      0.0000
-        21         0.0000      0.0000      0.0000
-        22         0.0000      0.0000      0.0000
-        23         0.0000      0.0000      0.0000
-        24        -0.0000     -0.0000      0.0000
-        25         0.0000      0.0000      0.0000
-        26         0.0000      0.0000      0.0000
-        27         0.0000      0.0000      0.0000
-        28        -0.0000      0.0000      0.0000
-        29        -0.0000      0.0000      0.0000
-        30        -0.0000     -0.0000      0.0000
-        31         0.0000      0.0000      0.0000
-        32         0.0000      0.0000      0.0000
-        33         0.0000      0.0000      0.0000
-        34         0.0000      0.0000      0.0000
-        35         0.0000      0.0000      0.0000
-        36        -0.0000     -0.0000      0.0000
-        37         0.0000     -0.0000     -0.0000
-        38         0.0000      0.0000      0.0000
-        39        -0.0000      0.0000     -0.0000
-        40        -0.0000     -0.0000     -0.0000
  Ground to excited state transition velocity quadrupole moments (Au):
        state          XX          YY          ZZ          XY          XZ          YZ
-         1         0.0000      0.0000      0.0000      0.0000      0.0000      0.0000
-         2         0.0000      0.0000      0.0000      0.0000      0.0000      0.0000
-         3         0.0000      0.0000      0.0000      0.0000      0.0000      0.0000
-         4        -0.0000     -0.0000     -0.0000      0.0000     -0.0000     -0.0000
-         5        -0.0000     -0.0000     -0.0000     -0.0000     -0.0000     -0.0000
-         6         0.0000      0.0000      0.0000     -0.0000      0.0000     -0.0000
-         7         0.0000      0.0000      0.0000      0.0000      0.0000      0.0000
-         8         0.0000      0.0000      0.0000      0.0000      0.0000      0.0000
-         9         0.0000      0.0000      0.0000      0.0000      0.0000      0.0000
-        10         0.0000      0.0000      0.0000      0.0000      0.0000      0.0000
-        11         0.0000      0.0000      0.0000      0.0000      0.0000      0.0000
-        12         0.0000      0.0000      0.0000      0.0000      0.0000      0.0000
-        13         0.3174     -0.1476     -0.1697     -0.0500     -0.4548     -0.0611
-        14         0.4456     -0.0451     -0.4006      0.2045      0.2305     -0.1151
-        15        -0.2082      0.0799      0.1282      0.4733     -0.1484     -0.0979
-        16         0.0603      0.1063     -0.1666      0.1164     -0.0454      0.5018
-        17        -0.1968      0.5861     -0.3893     -0.0825     -0.0684     -0.1019
-        18         0.0000      0.0000      0.0000      0.0000      0.0000      0.0000
-        19        -0.0000     -0.0000      0.0000     -0.0000     -0.0000     -0.0000
-        20         0.0000     -0.0000     -0.0000     -0.0000      0.0000      0.0000
-        21         0.0000      0.0000      0.0000      0.0000      0.0000      0.0000
-        22         0.0000      0.0000      0.0000      0.0000      0.0000      0.0000
-        23        -0.0000     -0.0000      0.0000      0.0000      0.0000     -0.0000
-        24         0.8853      0.8853      0.8853     -0.0000      0.0000     -0.0000
-        25         0.0000      0.0000      0.0000      0.0000      0.0000      0.0000
-        26         0.0000      0.0000      0.0000      0.0000      0.0000      0.0000
-        27         0.0000      0.0000      0.0000      0.0000      0.0000      0.0000
-        28         0.0000     -0.0000     -0.0000     -0.0000      0.0000      0.0000
-        29         0.0000      0.0000      0.0000      0.0000      0.0000      0.0000
-        30        -0.0000     -0.0000     -0.0000      0.0000     -0.0000      0.0000
-        31         0.0000      0.0000      0.0000      0.0000      0.0000      0.0000
-        32         0.0000      0.0000      0.0000      0.0000      0.0000      0.0000
-        33         0.0000      0.0000      0.0000      0.0000      0.0000      0.0000
-        34         0.0000      0.0000      0.0000      0.0000      0.0000      0.0000
-        35         0.0000      0.0000      0.0000      0.0000      0.0000      0.0000
-        36         0.0000      0.0000      0.0000     -0.0000     -0.0000     -0.0000
-        37        -0.0000      0.0000      0.0000     -0.0000     -0.0000      0.0000
-        38        -0.0000      0.0000      0.0000     -0.0000     -0.0000      0.0000
-        39        -0.0000      0.0000      0.0000      0.0000     -0.0000     -0.0000
-        40        -0.0000     -0.0000     -0.0000      0.0000      0.0000     -0.0000
+         1         0.0000     -0.0000     -0.0000     -0.0000      0.0000      0.0000
+         2        -0.0000      0.0000      0.0000      0.0000     -0.0000     -0.0000
+         3        -0.0000      0.0000      0.0000      0.0000     -0.0000     -0.0000
+         4        -0.0000     -0.0000     -0.0000     -0.0000     -0.0000      0.0000
+         5         0.0000      0.0000      0.0000     -0.0000     -0.0000     -0.0000
+         6        -0.0000     -0.0000     -0.0000     -0.0000      0.0000     -0.0000
  <0|del|b> * <b|rxdel|0> + <0|del|b> * <b|delr+rdel|0>
  Rotatory Strengths (R) in cgs (10**-40 erg-esu-cm/Gauss)
        state          XX          YY          ZZ    R(velocity)    E-M Angle
-         1         0.0000      0.0000      0.0000      0.0000       90.00
-         2         0.0000      0.0000      0.0000      0.0000       90.00
-         3         0.0000      0.0000      0.0000      0.0000       90.00
-         4         0.0000     -0.0000      0.0000      0.0000       90.00
-         5         0.0000      0.0000     -0.0000      0.0000       90.00
+         1        -0.0000      0.0000     -0.0000      0.0000       90.00
+         2        -0.0000      0.0000     -0.0000     -0.0000       90.00
+         3         0.0000     -0.0000      0.0000     -0.0000       90.00
+         4        -0.0000      0.0000     -0.0000     -0.0000       90.00
+         5         0.0000     -0.0000      0.0000      0.0000       90.00
          6        -0.0000      0.0000      0.0000     -0.0000       90.00
-         7         0.0000      0.0000      0.0000      0.0000       90.00
-         8         0.0000      0.0000      0.0000      0.0000       90.00
-         9         0.0000      0.0000      0.0000      0.0000       90.00
-        10         0.0000      0.0000      0.0000      0.0000       90.00
-        11         0.0000      0.0000      0.0000      0.0000       90.00
-        12         0.0000      0.0000      0.0000      0.0000       90.00
-        13        -0.0000      0.0000      0.0000     -0.0000       90.00
-        14        -0.0000      0.0000      0.0000      0.0000       90.00
-        15         0.0000     -0.0000     -0.0000     -0.0000       90.00
-        16        -0.0000      0.0000     -0.0000      0.0000       90.00
-        17         0.0000     -0.0000     -0.0000      0.0000       90.00
-        18         0.0000      0.0000      0.0000      0.0000       90.00
-        19         0.0000     -0.0000     -0.0000      0.0000       90.00
-        20         0.0000      0.0000     -0.0000      0.0000       90.00
-        21         0.0000      0.0000      0.0000      0.0000       90.00
-        22         0.0000      0.0000      0.0000      0.0000       90.00
-        23         0.0000     -0.0000      0.0000      0.0000       90.00
-        24        -0.0000      0.0000      0.0000      0.0000       90.00
-        25         0.0000      0.0000      0.0000      0.0000       90.00
-        26         0.0000      0.0000      0.0000      0.0000       90.00
-        27         0.0000      0.0000      0.0000      0.0000       90.00
-        28        -0.0000     -0.0000      0.0000      0.0000       90.00
-        29         0.0000     -0.0000     -0.0000     -0.0000       90.00
-        30        -0.0000      0.0000      0.0000     -0.0000       90.00
-        31         0.0000      0.0000      0.0000      0.0000       90.00
-        32         0.0000      0.0000      0.0000      0.0000       90.00
-        33         0.0000      0.0000      0.0000      0.0000       90.00
-        34         0.0000      0.0000      0.0000      0.0000       90.00
-        35         0.0000      0.0000      0.0000      0.0000       90.00
-        36        -0.0000     -0.0000     -0.0000     -0.0000       90.00
-        37         0.0000     -0.0000      0.0000      0.0000       90.00
-        38         0.0000      0.0000      0.0000      0.0000       90.00
-        39        -0.0000     -0.0000      0.0000      0.0000       90.00
-        40        -0.0000     -0.0000     -0.0000     -0.0000       90.00
  1/2[<0|r|b>*<b|rxdel|0> + (<0|rxdel|b>*<b|r|0>)*]
  Rotatory Strengths (R) in cgs (10**-40 erg-esu-cm/Gauss)
        state          XX          YY          ZZ     R(length)
-         1         0.0000      0.0000      0.0000      0.0000
-         2         0.0000      0.0000      0.0000      0.0000
-         3         0.0000      0.0000      0.0000      0.0000
-         4         0.0000     -0.0000      0.0000      0.0000
-         5         0.0000     -0.0000      0.0000     -0.0000
-         6        -0.0000      0.0000     -0.0000     -0.0000
-         7         0.0000      0.0000      0.0000      0.0000
-         8         0.0000      0.0000      0.0000      0.0000
-         9         0.0000      0.0000      0.0000      0.0000
-        10         0.0000      0.0000      0.0000      0.0000
-        11         0.0000      0.0000      0.0000      0.0000
-        12         0.0000      0.0000      0.0000      0.0000
-        13        -0.0000     -0.0000     -0.0000     -0.0000
-        14        -0.0000     -0.0000      0.0000      0.0000
-        15         0.0000     -0.0000     -0.0000     -0.0000
-        16        -0.0000      0.0000      0.0000      0.0000
-        17        -0.0000      0.0000      0.0000      0.0000
-        18         0.0000      0.0000      0.0000      0.0000
-        19         0.0000      0.0000      0.0000      0.0000
-        20         0.0000      0.0000     -0.0000      0.0000
-        21         0.0000      0.0000      0.0000      0.0000
-        22         0.0000      0.0000      0.0000      0.0000
-        23         0.0000      0.0000      0.0000      0.0000
-        24        -0.0000      0.0000      0.0000      0.0000
-        25         0.0000      0.0000      0.0000      0.0000
-        26         0.0000      0.0000      0.0000      0.0000
-        27         0.0000      0.0000      0.0000      0.0000
-        28         0.0000     -0.0000      0.0000      0.0000
-        29         0.0000     -0.0000     -0.0000      0.0000
-        30        -0.0000      0.0000      0.0000      0.0000
-        31         0.0000      0.0000      0.0000      0.0000
-        32         0.0000      0.0000      0.0000      0.0000
-        33         0.0000      0.0000      0.0000      0.0000
-        34         0.0000      0.0000      0.0000      0.0000
-        35         0.0000      0.0000      0.0000      0.0000
-        36        -0.0000     -0.0000     -0.0000     -0.0000
-        37         0.0000     -0.0000      0.0000      0.0000
-        38        -0.0000      0.0000      0.0000      0.0000
-        39         0.0000     -0.0000      0.0000     -0.0000
-        40        -0.0000      0.0000      0.0000      0.0000
+         1        -0.0000      0.0000      0.0000     -0.0000
+         2        -0.0000     -0.0000     -0.0000     -0.0000
+         3        -0.0000     -0.0000      0.0000     -0.0000
+         4        -0.0000      0.0000     -0.0000     -0.0000
+         5         0.0000     -0.0000     -0.0000      0.0000
+         6        -0.0000      0.0000      0.0000     -0.0000
   1/2[<0|del|b>*<b|r|0> + (<0|r|b>*<b|del|0>)*] (Au)
        state          X           Y           Z        Dip. S.   Osc.(frdel)
-         1        -0.0000     -0.0000     -0.0000      0.0000      0.0000
-         2        -0.0000     -0.0000     -0.0000      0.0000      0.0000
-         3        -0.0000     -0.0000     -0.0000      0.0000      0.0000
-         4        -0.1582     -0.0017     -0.0003      0.1601      0.1067
-         5        -0.0000     -0.0137     -0.1464      0.1601      0.1067
-         6        -0.0019     -0.1447     -0.0135      0.1601      0.1067
-         7        -0.0000     -0.0000     -0.0000      0.0000      0.0000
-         8        -0.0000     -0.0000     -0.0000      0.0000      0.0000
-         9        -0.0000     -0.0000     -0.0000      0.0000      0.0000
-        10        -0.0000     -0.0000     -0.0000      0.0000      0.0000
-        11        -0.0000     -0.0000     -0.0000      0.0000      0.0000
-        12        -0.0000     -0.0000     -0.0000      0.0000      0.0000
-        13        -0.0000      0.0000     -0.0000      0.0000      0.0000
-        14        -0.0000     -0.0000     -0.0000      0.0000      0.0000
-        15        -0.0000     -0.0000     -0.0000      0.0000      0.0000
-        16        -0.0000     -0.0000     -0.0000      0.0000      0.0000
-        17        -0.0000     -0.0000     -0.0000      0.0000      0.0000
-        18        -0.0000     -0.0000     -0.0000      0.0000      0.0000
-        19        -0.0000      0.0000     -0.0000      0.0000      0.0000
-        20        -0.0000     -0.0000     -0.0000      0.0000      0.0000
-        21        -0.0000     -0.0000     -0.0000      0.0000      0.0000
-        22        -0.0000     -0.0000     -0.0000      0.0000      0.0000
-        23        -0.0000     -0.0000     -0.0000      0.0000      0.0000
-        24        -0.0000     -0.0000     -0.0000      0.0000      0.0000
-        25        -0.0000     -0.0000     -0.0000      0.0000      0.0000
-        26        -0.0000     -0.0000     -0.0000      0.0000      0.0000
-        27        -0.0000     -0.0000     -0.0000      0.0000      0.0000
-        28        -0.0281     -0.0000     -0.0031      0.0312      0.0208
-        29        -0.0027     -0.0030     -0.0255      0.0312      0.0208
-        30        -0.0004     -0.0282     -0.0026      0.0312      0.0208
-        31        -0.0000     -0.0000     -0.0000      0.0000      0.0000
-        32        -0.0000     -0.0000     -0.0000      0.0000      0.0000
-        33        -0.0000     -0.0000     -0.0000      0.0000      0.0000
-        34        -0.0000     -0.0000     -0.0000      0.0000      0.0000
-        35        -0.0000     -0.0000     -0.0000      0.0000      0.0000
-        36         0.0000     -0.0000     -0.0000     -0.0000     -0.0000
-        37        -0.0000      0.0000     -0.0000      0.0000      0.0000
-        38         0.0000     -0.0000     -0.0000      0.0000      0.0000
-        39         0.0000      0.0000     -0.0000     -0.0000     -0.0000
-        40        -0.0000      0.0000     -0.0000      0.0000      0.0000
+         1         0.0000     -0.0000     -0.0000      0.0000      0.0000
+         2        -0.0000     -0.0000      0.0000      0.0000      0.0000
+         3         0.0000     -0.0000     -0.0000      0.0000      0.0000
+         4        -0.0300     -0.0004     -0.1297      0.1601      0.1067
+         5        -0.0985     -0.0422     -0.0194      0.1601      0.1067
+         6        -0.0316     -0.1176     -0.0110      0.1601      0.1067
 
  Excitation energies and oscillator strengths:
  
  Excited state symmetry could not be determined.
  Excited State   1:      Triplet-?Sym   29.3544 eV   42.24 nm  f=0.0000  <S**2>=2.000
-       8 -> 10         0.40705
-       9 -> 10         0.57104
+       7 -> 10        -0.21716
+       8 -> 10         0.60687
+       9 -> 10         0.28764
  This state for optimization and/or second-order correction.
  Total Energy, E(TD-HF/TD-DFT) =  -678.535798652    
  Copying the excited state density for this state as the 1-particle RhoCI density.
  
  Excited state symmetry could not be determined.
  Excited State   2:      Triplet-?Sym   29.3544 eV   42.24 nm  f=0.0000  <S**2>=2.000
-       8 -> 10         0.57155
-       9 -> 10        -0.41254
+       7 -> 10         0.63543
+       8 -> 10         0.28352
+       9 -> 10        -0.11845
  
  Excited state symmetry could not be determined.
  Excited State   3:      Triplet-?Sym   29.3544 eV   42.24 nm  f=0.0000  <S**2>=2.000
-       7 -> 10         0.70032
+       7 -> 10         0.21739
+       8 -> 10        -0.22251
+       9 -> 10         0.63358
  
  Excited state symmetry could not be determined.
  Excited State   4:      Singlet-?Sym   29.7349 eV   41.70 nm  f=0.1115  <S**2>=0.000
-       7 -> 10         0.65783
-       8 -> 10        -0.17740
-       9 -> 10        -0.18753
+       7 -> 10         0.45835
+       9 -> 10         0.53598
  
  Excited state symmetry could not be determined.
  Excited State   5:      Singlet-?Sym   29.7349 eV   41.70 nm  f=0.1115  <S**2>=0.000
-       7 -> 10         0.25554
-       8 -> 10         0.37478
-       9 -> 10         0.54187
+       7 -> 10         0.53095
+       9 -> 10        -0.46032
  
  Excited state symmetry could not be determined.
  Excited State   6:      Singlet-?Sym   29.7349 eV   41.70 nm  f=0.1115  <S**2>=0.000
-       8 -> 10         0.57223
-       9 -> 10        -0.41303
- 
- Excited state symmetry could not be determined.
- Excited State   7:      Triplet-?Sym   33.1974 eV   37.35 nm  f=0.0000  <S**2>=2.000
-       7 -> 11         0.24055
-       7 -> 12         0.32286
-       8 -> 11        -0.16771
-       8 -> 12         0.17661
-       8 -> 13         0.32469
-       9 -> 11        -0.28062
-       9 -> 12         0.17121
-       9 -> 13        -0.23807
- 
- Excited state symmetry could not be determined.
- Excited State   8:      Triplet-?Sym   33.5804 eV   36.92 nm  f=0.0000  <S**2>=2.000
-       7 -> 12        -0.16178
-       7 -> 13         0.16482
-       8 -> 11         0.15325
-       8 -> 13         0.48369
-       9 -> 11         0.19149
-       9 -> 12        -0.33990
-       9 -> 13        -0.17049
- 
- Excited state symmetry could not be determined.
- Excited State   9:      Triplet-?Sym   33.5804 eV   36.92 nm  f=0.0000  <S**2>=2.000
-       7 -> 12         0.13493
-       7 -> 13         0.20949
-       8 -> 11        -0.18642
-       8 -> 12         0.38953
-       9 -> 12        -0.13555
-       9 -> 13         0.46650
- 
- Excited state symmetry could not be determined.
- Excited State  10:      Triplet-?Sym   33.5804 eV   36.92 nm  f=0.0000  <S**2>=2.000
-       7 -> 11         0.10003
-       7 -> 13         0.40500
-       8 -> 11         0.33120
-       8 -> 12         0.10071
-       8 -> 13        -0.24984
-       9 -> 11        -0.31559
-       9 -> 12        -0.14120
-       9 -> 13        -0.13616
- 
- Excited state symmetry could not be determined.
- Excited State  11:      Triplet-?Sym   33.5804 eV   36.92 nm  f=0.0000  <S**2>=2.000
-       7 -> 11         0.31061
-       7 -> 12         0.41865
-       7 -> 13        -0.11286
-       8 -> 11         0.19959
-       8 -> 12        -0.20580
-       9 -> 11         0.30173
-       9 -> 12        -0.18520
- 
- Excited state symmetry could not be determined.
- Excited State  12:      Triplet-?Sym   33.5804 eV   36.92 nm  f=0.0000  <S**2>=2.000
-       7 -> 11         0.40549
-       7 -> 12        -0.27987
-       8 -> 11        -0.23511
-       8 -> 12        -0.23766
-       9 -> 11        -0.23220
-       9 -> 12        -0.27477
-       9 -> 13         0.10696
- 
- Excited state symmetry could not be determined.
- Excited State  13:      Singlet-?Sym   33.8422 eV   36.64 nm  f=0.0000  <S**2>=0.000
-       7 -> 11         0.36865
-       7 -> 12        -0.30558
-       8 -> 11        -0.24115
-       8 -> 12        -0.15274
-       9 -> 11        -0.32434
-       9 -> 12        -0.24516
-       9 -> 13         0.13544
- 
- Excited state symmetry could not be determined.
- Excited State  14:      Singlet-?Sym   33.8422 eV   36.64 nm  f=0.0000  <S**2>=0.000
-       7 -> 11         0.37041
-       7 -> 12         0.35478
-       8 -> 11         0.23013
-       8 -> 12        -0.21222
-       9 -> 11         0.23343
-       9 -> 12        -0.28246
- 
- Excited state symmetry could not be determined.
- Excited State  15:      Singlet-?Sym   33.8422 eV   36.64 nm  f=0.0000  <S**2>=0.000
-       7 -> 13         0.42684
-       8 -> 11         0.34336
-       8 -> 12         0.16599
-       8 -> 13        -0.20769
-       9 -> 11        -0.30272
-       9 -> 13        -0.16656
- 
- Excited state symmetry could not be determined.
- Excited State  16:      Singlet-?Sym   33.8422 eV   36.64 nm  f=0.0000  <S**2>=0.000
-       7 -> 12         0.17233
-       7 -> 13         0.20535
-       8 -> 11        -0.16506
-       8 -> 12         0.40389
-       9 -> 11         0.10941
-       9 -> 12        -0.10488
-       9 -> 13         0.46016
- 
- Excited state symmetry could not be determined.
- Excited State  17:      Singlet-?Sym   33.8422 eV   36.64 nm  f=0.0000  <S**2>=0.000
-       7 -> 12        -0.22792
-       7 -> 13         0.15489
-       8 -> 13         0.50376
-       9 -> 11         0.16090
-       9 -> 12        -0.32552
-       9 -> 13        -0.14216
- 
- Excited state symmetry could not be determined.
- Excited State  18:      Triplet-?Sym   33.8626 eV   36.61 nm  f=0.0000  <S**2>=2.000
-       7 -> 11         0.39690
-       7 -> 12        -0.27979
-       7 -> 13         0.10012
-       8 -> 12         0.18889
-       9 -> 11         0.29217
-       9 -> 12         0.33277
-       9 -> 13        -0.10507
- 
- Excited state symmetry could not be determined.
- Excited State  19:      Singlet-?Sym   33.8626 eV   36.61 nm  f=0.0000  <S**2>=0.000
-       7 -> 11         0.39799
-       7 -> 12        -0.28750
-       8 -> 12         0.22452
-       9 -> 11         0.28437
-       9 -> 12         0.31055
-       9 -> 13        -0.11186
- 
- Excited state symmetry could not be determined.
- Excited State  20:      Singlet-?Sym   33.8626 eV   36.61 nm  f=0.0000  <S**2>=0.000
-       7 -> 13        -0.37278
-       8 -> 11         0.42992
-       8 -> 12         0.15000
-       8 -> 13         0.14048
-       9 -> 11        -0.21936
-       9 -> 13         0.27200
- 
- Excited state symmetry could not be determined.
- Excited State  21:      Triplet-?Sym   33.8626 eV   36.61 nm  f=0.0000  <S**2>=2.000
-       7 -> 12         0.11539
-       7 -> 13         0.45603
-       8 -> 11        -0.36903
-       8 -> 12        -0.28254
-       9 -> 11         0.17125
-       9 -> 13        -0.14875
- 
- Excited state symmetry could not be determined.
- Excited State  22:      Triplet-?Sym   33.8626 eV   36.61 nm  f=0.0000  <S**2>=2.000
-       7 -> 13         0.16568
-       8 -> 11         0.25337
-       8 -> 12        -0.29445
-       8 -> 13         0.29104
-       9 -> 11        -0.12455
-       9 -> 12         0.29809
-       9 -> 13         0.36118
- 
- Excited state symmetry could not be determined.
- Excited State  23:      Singlet-?Sym   33.8626 eV   36.61 nm  f=0.0000  <S**2>=0.000
-       7 -> 13        -0.32133
-       8 -> 11        -0.11395
-       8 -> 12         0.35958
-       8 -> 13        -0.25445
-       9 -> 12        -0.32903
-       9 -> 13        -0.27770
- 
- Excited state symmetry could not be determined.
- Excited State  24:      Singlet-?Sym   35.0039 eV   35.42 nm  f=0.0000  <S**2>=0.000
-       7 -> 11         0.24069
-       7 -> 12         0.32305
-       8 -> 11        -0.16781
-       8 -> 12         0.17671
-       8 -> 13         0.32488
-       9 -> 11        -0.28078
-       9 -> 12         0.17131
-       9 -> 13        -0.23821
- 
- Excited state symmetry could not be determined.
- Excited State  25:      Triplet-?Sym   38.3599 eV   32.32 nm  f=0.0000  <S**2>=2.000
-       8 -> 14         0.57160
-       9 -> 14        -0.41258
- 
- Excited state symmetry could not be determined.
- Excited State  26:      Triplet-?Sym   38.3599 eV   32.32 nm  f=0.0000  <S**2>=2.000
-       7 -> 14         0.40227
-       8 -> 14         0.32236
-       9 -> 14         0.48223
- 
- Excited state symmetry could not be determined.
- Excited State  27:      Triplet-?Sym   38.3599 eV   32.32 nm  f=0.0000  <S**2>=2.000
-       7 -> 14         0.57891
-       8 -> 14        -0.26007
-       9 -> 14        -0.30905
- 
- Excited state symmetry could not be determined.
- Excited State  28:      Singlet-?Sym   38.5696 eV   32.15 nm  f=0.0190  <S**2>=0.000
-       7 -> 14         0.55687
-       8 -> 14        -0.27746
-       9 -> 14        -0.33510
- 
- Excited state symmetry could not be determined.
- Excited State  29:      Singlet-?Sym   38.5696 eV   32.15 nm  f=0.0190  <S**2>=0.000
-       7 -> 14         0.43352
-       8 -> 14         0.30813
-       9 -> 14         0.46529
- 
- Excited state symmetry could not be determined.
- Excited State  30:      Singlet-?Sym   38.5696 eV   32.15 nm  f=0.0190  <S**2>=0.000
-       8 -> 14         0.57223
-       9 -> 14        -0.41303
- 
- Excited state symmetry could not be determined.
- Excited State  31:      Triplet-?Sym   48.1058 eV   25.77 nm  f=0.0000  <S**2>=2.000
-       6 -> 10         0.26366
-       7 -> 15         0.21954
-       7 -> 16         0.30379
-       8 -> 15        -0.18726
-       8 -> 16         0.11589
-       8 -> 17         0.30392
-       9 -> 15        -0.24000
-       9 -> 16         0.18747
-       9 -> 17        -0.21937
- 
- Excited state symmetry could not be determined.
- Excited State  32:      Triplet-?Sym   49.4011 eV   25.10 nm  f=0.0000  <S**2>=2.000
-       7 -> 16        -0.21612
-       8 -> 15         0.19597
-       8 -> 16        -0.18771
-       8 -> 17         0.39956
-       9 -> 15         0.15050
-       9 -> 16        -0.18698
-       9 -> 17        -0.39490
- 
- Excited state symmetry could not be determined.
- Excited State  33:      Triplet-?Sym   49.4011 eV   25.10 nm  f=0.0000  <S**2>=2.000
-       7 -> 17         0.20044
-       8 -> 15        -0.17574
-       8 -> 16         0.29621
-       8 -> 17         0.32072
-       9 -> 15         0.18456
-       9 -> 16        -0.31226
-       9 -> 17         0.32279
- 
- Excited state symmetry could not be determined.
- Excited State  34:      Triplet-?Sym   49.4011 eV   25.10 nm  f=0.0000  <S**2>=2.000
-       7 -> 17         0.45222
-       8 -> 15         0.31117
-       8 -> 16         0.19647
-       8 -> 17        -0.16777
-       9 -> 15        -0.29069
-       9 -> 16        -0.16314
-       9 -> 17        -0.12035
- 
- Excited state symmetry could not be determined.
- Excited State  35:      Triplet-?Sym   49.4011 eV   25.10 nm  f=0.0000  <S**2>=2.000
-       7 -> 15         0.10338
-       7 -> 16         0.50397
-       8 -> 15         0.29932
-       9 -> 15         0.36588
- 
- Excited state symmetry could not be determined.
- Excited State  36:  1.000-?Sym   49.4011 eV   25.10 nm  f=0.0000  <S**2>=0.000
-       7 -> 15         0.45330
-       7 -> 16        -0.16998
-       7 <- 16        -0.12031
-       8 <- 15         0.14285
-       8 <- 16         0.27787
-       9 <- 15         0.16207
-       9 <- 16         0.31828
- 
- Excited state symmetry could not be determined.
- Excited State  37:      Singlet-?Sym   50.2703 eV   24.66 nm  f=0.0000  <S**2>=0.000
-       7 -> 15         0.20149
-       7 -> 16        -0.15971
-       7 -> 17         0.22052
-       9 -> 15         0.24727
-       9 -> 16         0.24233
-       7 <- 15        -0.20461
-       7 <- 16         0.13240
-       7 <- 17         0.24186
-       8 <- 15        -0.25103
-       8 <- 16        -0.23297
- 
- Excited state symmetry could not be determined.
- Excited State  38:  1.000-?Sym   50.2703 eV   24.66 nm  f=0.0000  <S**2>=0.000
-       7 -> 15         0.20927
-       7 -> 16        -0.15750
-       8 -> 15         0.18198
-       8 -> 17         0.13080
-       9 -> 16         0.28550
-       9 -> 17         0.18990
-       7 <- 15        -0.19552
-       7 <- 16         0.13596
-       8 <- 16        -0.29032
-       8 <- 17         0.13283
-       9 <- 15        -0.20687
-       9 <- 17         0.19142
- 
- Excited state symmetry could not be determined.
- Excited State  39:      Singlet-?Sym   50.2703 eV   24.66 nm  f=0.0000  <S**2>=0.000
-       7 -> 15         0.17265
-       7 -> 16        -0.17803
-       7 -> 17         0.23971
-       8 -> 15        -0.29104
-       8 -> 16        -0.17407
-       8 -> 17        -0.11050
-       7 <- 15         0.17579
-       7 <- 16        -0.15055
-       7 <- 17        -0.22557
-       9 <- 15        -0.29861
-       9 <- 16        -0.20983
- 
- Excited state symmetry could not be determined.
- Excited State  40:  1.000-?Sym   50.2703 eV   24.66 nm  f=0.0000  <S**2>=0.000
-       7 -> 15         0.17800
-       7 -> 16         0.16916
-       7 -> 17         0.24821
-       8 -> 16        -0.23097
-       9 -> 15         0.23440
-       7 <- 15         0.21120
-       7 <- 16         0.17530
-       7 <- 17        -0.22309
-       8 <- 15         0.26931
-       9 <- 16        -0.21988
- SavETr:  write IOETrn=   770 NScale= 10 NData=  16 NLR=1 NState=   40 LETran=     730.
- Leave Link  914 at Wed Nov 16 17:23:11 2022, MaxMem= 12348030976 cpu:              20.9 elap:               0.9
+       8 -> 10         0.70127
+ SavETr:  write IOETrn=   770 NScale= 10 NData=  16 NLR=1 NState=    6 LETran=     118.
+ Leave Link  914 at Thu Nov 17 11:34:09 2022, MaxMem= 12348030976 cpu:              22.2 elap:               0.8
  (Enter /sw/contrib/gaussian/g16/C01_v2/g16/l601.exe)
  Copying SCF densities to generalized density rwf, IOpCl= 0 IROHF=0.
 
@@ -5352,17 +4657,17 @@
    3        3S         -0.00020   0.00530   0.00000   0.00000   0.00000
    4        4S          0.00019  -0.00538  -0.00000  -0.00000  -0.00000
    5        5S         -0.00009  -0.00534   0.00000   0.00000   0.00000
-   6        6PX         0.00000   0.00000   0.89919   0.02413  -0.36280
-   7        6PY         0.00000   0.00000  -0.13538   0.92041  -0.27434
-   8        6PZ        -0.00000  -0.00000   0.33746   0.30497   0.85666
-   9        7PX         0.00000  -0.00000   0.00037   0.00001  -0.00015
+   6        6PX         0.00000   0.00000   0.89914   0.04372  -0.36108
+   7        6PY         0.00000   0.00000  -0.15440   0.91770  -0.27337
+   8        6PZ        -0.00000  -0.00000   0.32932   0.31090   0.85769
+   9        7PX         0.00000  -0.00000   0.00037   0.00002  -0.00015
   10        7PY        -0.00000   0.00000  -0.00006   0.00037  -0.00011
-  11        7PZ        -0.00000  -0.00000   0.00014   0.00012   0.00035
-  12        8PX        -0.00000   0.00000   0.07059   0.00189  -0.02848
-  13        8PY         0.00000   0.00000  -0.01063   0.07226  -0.02154
-  14        8PZ        -0.00000  -0.00000   0.02649   0.02394   0.06725
-  15        9PX        -0.00000  -0.00000  -0.00064  -0.00002   0.00026
-  16        9PY        -0.00000   0.00000   0.00010  -0.00066   0.00020
+  11        7PZ        -0.00000  -0.00000   0.00013   0.00013   0.00035
+  12        8PX        -0.00000   0.00000   0.07059   0.00343  -0.02835
+  13        8PY         0.00000   0.00000  -0.01212   0.07204  -0.02146
+  14        8PZ        -0.00000  -0.00000   0.02585   0.02441   0.06733
+  15        9PX        -0.00000  -0.00000  -0.00064  -0.00003   0.00026
+  16        9PY        -0.00000   0.00000   0.00011  -0.00066   0.00020
   17        9PZ         0.00000  -0.00000  -0.00024  -0.00022  -0.00061
                            6         7         8         9        10
                            O         O         O         O         V
@@ -5372,18 +4677,18 @@
    3        3S          0.01325   0.00000   0.00000   0.00000  -0.69166
    4        4S         -0.01526  -0.00000  -0.00000  -0.00000   1.51401
    5        5S          1.07289   0.00000   0.00000   0.00000   0.00343
-   6        6PX         0.00000  -0.30121   0.10871   0.06293   0.00000
-   7        6PY         0.00000  -0.08154  -0.29359   0.11687   0.00000
-   8        6PZ        -0.00000  -0.09554  -0.09214  -0.29814  -0.00000
-   9        7PX        -0.00000   0.52548  -0.18965  -0.10979  -0.00000
-  10        7PY        -0.00000   0.14226   0.51220  -0.20388  -0.00000
-  11        7PZ         0.00000   0.16669   0.16074   0.52013   0.00000
-  12        8PX        -0.00000   0.57603  -0.20789  -0.12035  -0.00000
-  13        8PY        -0.00000   0.15594   0.56147  -0.22350  -0.00000
-  14        8PZ         0.00000   0.18272   0.17621   0.57016   0.00000
-  15        9PX        -0.00000  -0.01033   0.00373   0.00216   0.00000
-  16        9PY         0.00000  -0.00280  -0.01007   0.00401   0.00000
-  17        9PZ        -0.00000  -0.00328  -0.00316  -0.01022  -0.00000
+   6        6PX         0.00000  -0.30157   0.10785   0.06264   0.00000
+   7        6PY         0.00000  -0.08115  -0.29414   0.11574   0.00000
+   8        6PZ        -0.00000  -0.09470  -0.09138  -0.29864  -0.00000
+   9        7PX        -0.00000   0.52613  -0.18816  -0.10927  -0.00000
+  10        7PY        -0.00000   0.14158   0.51316  -0.20192  -0.00000
+  11        7PZ         0.00000   0.16522   0.15942   0.52100   0.00000
+  12        8PX        -0.00000   0.57674  -0.20626  -0.11979  -0.00000
+  13        8PY        -0.00000   0.15520   0.56253  -0.22135  -0.00000
+  14        8PZ         0.00000   0.18112   0.17476   0.57112   0.00000
+  15        9PX        -0.00000  -0.01034   0.00370   0.00215   0.00000
+  16        9PY         0.00000  -0.00278  -0.01009   0.00397   0.00000
+  17        9PZ        -0.00000  -0.00325  -0.00313  -0.01024  -0.00000
                           11        12        13        14        15
                            V         V         V         V         V
      Eigenvalues --    -0.35754  -0.35754  -0.35754  -0.20899   0.28532
@@ -5392,18 +4697,18 @@
    3        3S          0.00000  -0.00000   0.00000   3.24832  -0.00000
    4        4S         -0.00000   0.00000  -0.00000  -2.09973   0.00000
    5        5S          0.00000  -0.00000   0.00000   1.54160  -0.00000
-   6        6PX         0.08704   0.05404  -0.02874   0.00000  -0.28643
-   7        6PY         0.00255   0.04673   0.09556  -0.00000   0.02546
-   8        6PZ        -0.06116   0.07886  -0.03693   0.00000   0.19126
-   9        7PX         0.07941   0.04930  -0.02622   0.00000  -0.84187
-  10        7PY         0.00232   0.04263   0.08719  -0.00000   0.07483
-  11        7PZ        -0.05580   0.07194  -0.03369   0.00000   0.56213
-  12        8PX        -0.26073  -0.16189   0.08611  -0.00000   0.87010
-  13        8PY        -0.00763  -0.13998  -0.28627   0.00000  -0.07734
-  14        8PZ         0.18321  -0.23622   0.11062  -0.00000  -0.58098
-  15        9PX         0.82780   0.51399  -0.27338   0.00000   0.10495
-  16        9PY         0.02422   0.44441   0.90889  -0.00000  -0.00933
-  17        9PZ        -0.58167   0.74999  -0.35121   0.00000  -0.07007
+   6        6PX         0.08706   0.05396  -0.02882   0.00000  -0.28624
+   7        6PY         0.00256   0.04687   0.09549  -0.00000   0.02559
+   8        6PZ        -0.06112   0.07883  -0.03705   0.00000   0.19153
+   9        7PX         0.07943   0.04923  -0.02629   0.00000  -0.84129
+  10        7PY         0.00233   0.04276   0.08712  -0.00000   0.07520
+  11        7PZ        -0.05577   0.07191  -0.03380   0.00000   0.56294
+  12        8PX        -0.26080  -0.16166   0.08633  -0.00000   0.86951
+  13        8PY        -0.00766  -0.14040  -0.28606   0.00000  -0.07772
+  14        8PZ         0.18310  -0.23613   0.11099  -0.00000  -0.58182
+  15        9PX         0.82802   0.51325  -0.27408   0.00000   0.10487
+  16        9PY         0.02433   0.44575   0.90823  -0.00000  -0.00937
+  17        9PZ        -0.58134   0.74970  -0.35238   0.00000  -0.07018
                           16        17
                            V         V
      Eigenvalues --     0.28532   0.28532
@@ -5412,18 +4717,18 @@
    3        3S          0.00000  -0.00000
    4        4S         -0.00000   0.00000
    5        5S          0.00000  -0.00000
-   6        6PX        -0.18922   0.03773
-   7        6PY        -0.10401  -0.32834
-   8        6PZ        -0.26954   0.10021
-   9        7PX        -0.55614   0.11090
-  10        7PY        -0.30570  -0.96502
-  11        7PZ        -0.79220   0.29454
-  12        8PX         0.57479  -0.11462
-  13        8PY         0.31596   0.99739
-  14        8PZ         0.81877  -0.30442
-  15        9PX         0.06933  -0.01382
-  16        9PY         0.03811   0.12030
-  17        9PZ         0.09875  -0.03672
+   6        6PX        -0.18951   0.03778
+   7        6PY        -0.10410  -0.32830
+   8        6PZ        -0.26930   0.10032
+   9        7PX        -0.55698   0.11104
+  10        7PY        -0.30596  -0.96491
+  11        7PZ        -0.79151   0.29485
+  12        8PX         0.57566  -0.11477
+  13        8PY         0.31622   0.99728
+  14        8PZ         0.81806  -0.30474
+  15        9PX         0.06943  -0.01384
+  16        9PY         0.03814   0.12028
+  17        9PZ         0.09867  -0.03676
      Density Matrix:
                            1         2         3         4         5
    1 1   Ca 1S          2.19061
@@ -5579,17 +4884,17 @@
   16         V                 0.285322          5.416295
   17         V                 0.285322          5.416295
  Total kinetic energy from orbitals= 6.965804352776D+02
- Leave Link  601 at Wed Nov 16 17:23:12 2022, MaxMem= 12348030976 cpu:               3.5 elap:               0.3
+ Leave Link  601 at Thu Nov 17 11:34:09 2022, MaxMem= 12348030976 cpu:               2.2 elap:               0.1
  (Enter /sw/contrib/gaussian/g16/C01_v2/g16/l9999.exe)
  Electronic transition elements 
                  1             2             3             4             5 
       1  -0.678536D+03 -0.678536D+03 -0.678536D+03 -0.678522D+03 -0.678522D+03
-      2   0.000000D+00  0.000000D+00  0.000000D+00 -0.388830D+00 -0.360822D-02
-      3   0.000000D+00  0.000000D+00  0.000000D+00 -0.398148D-01 -0.114572D+00
-      4   0.000000D+00  0.000000D+00  0.000000D+00  0.159476D-01 -0.374016D+00
-      5   0.000000D+00  0.000000D+00  0.000000D+00  0.406841D+00  0.377537D-02
-      6   0.000000D+00  0.000000D+00  0.000000D+00  0.416591D-01  0.119879D+00
-      7   0.000000D+00  0.000000D+00  0.000000D+00 -0.166863D-01  0.391342D+00
+      2   0.000000D+00  0.000000D+00  0.000000D+00 -0.169294D+00 -0.306855D+00
+      3   0.000000D+00  0.000000D+00  0.000000D+00  0.196802D-01 -0.200723D+00
+      4   0.000000D+00  0.000000D+00  0.000000D+00 -0.352113D+00  0.136315D+00
+      5   0.000000D+00  0.000000D+00  0.000000D+00  0.177135D+00  0.321066D+00
+      6   0.000000D+00  0.000000D+00  0.000000D+00 -0.205915D-01  0.210019D+00
+      7   0.000000D+00  0.000000D+00  0.000000D+00  0.368421D+00 -0.142628D+00
       8   0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
       9   0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
      10   0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
@@ -5599,138 +4904,37 @@
      14   0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
      15   0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
      16   0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
-                 6             7             8             9            10 
-      1  -0.678522D+03 -0.678395D+03 -0.678380D+03 -0.678380D+03 -0.678380D+03
-      2   0.427378D-01  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
-      3  -0.371909D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
-      4   0.113514D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
-      5  -0.447176D-01  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
-      6   0.389136D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
-      7  -0.118772D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
-      8   0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
-      9   0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
-     10   0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
-     11   0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
-     12   0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
-     13   0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
-     14   0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
-     15   0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
-     16   0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
-                11            12            13            14            15 
-      1  -0.678380D+03 -0.678380D+03 -0.678371D+03 -0.678371D+03 -0.678371D+03
-      2   0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
-      3   0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
-      4   0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
-      5   0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
-      6   0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
-      7   0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
-      8   0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
-      9   0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
-     10   0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
-     11   0.000000D+00  0.000000D+00  0.317355D+00  0.445619D+00 -0.208161D+00
-     12   0.000000D+00  0.000000D+00 -0.147622D+00 -0.450508D-01  0.799132D-01
-     13   0.000000D+00  0.000000D+00 -0.169733D+00 -0.400568D+00  0.128247D+00
-     14   0.000000D+00  0.000000D+00 -0.500428D-01  0.204535D+00  0.473322D+00
-     15   0.000000D+00  0.000000D+00 -0.454803D+00  0.230492D+00 -0.148450D+00
-     16   0.000000D+00  0.000000D+00 -0.611074D-01 -0.115110D+00 -0.979211D-01
-                16            17            18            19            20 
-      1  -0.678371D+03 -0.678371D+03 -0.678370D+03 -0.678370D+03 -0.678370D+03
-      2   0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
-      3   0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
-      4   0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
-      5   0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
-      6   0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
-      7   0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
-      8   0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
-      9   0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
-     10   0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
-     11   0.602984D-01 -0.196804D+00  0.000000D+00  0.000000D+00  0.000000D+00
-     12   0.106261D+00  0.586080D+00  0.000000D+00  0.000000D+00  0.000000D+00
-     13  -0.166559D+00 -0.389276D+00  0.000000D+00  0.000000D+00  0.000000D+00
-     14   0.116438D+00 -0.825320D-01  0.000000D+00  0.000000D+00  0.000000D+00
-     15  -0.453599D-01 -0.683728D-01  0.000000D+00  0.000000D+00  0.000000D+00
-     16   0.501789D+00 -0.101866D+00  0.000000D+00  0.000000D+00  0.000000D+00
-                21            22            23            24            25 
-      1  -0.678370D+03 -0.678370D+03 -0.678370D+03 -0.678328D+03 -0.678205D+03
-      2   0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
-      3   0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
-      4   0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
-      5   0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
-      6   0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
-      7   0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
-      8   0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
-      9   0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
-     10   0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
-     11   0.000000D+00  0.000000D+00  0.000000D+00  0.885316D+00  0.000000D+00
-     12   0.000000D+00  0.000000D+00  0.000000D+00  0.885316D+00  0.000000D+00
-     13   0.000000D+00  0.000000D+00  0.000000D+00  0.885316D+00  0.000000D+00
-     14   0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
-     15   0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
-     16   0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
-                26            27            28            29            30 
-      1  -0.678205D+03 -0.678205D+03 -0.678197D+03 -0.678197D+03 -0.678197D+03
-      2   0.000000D+00  0.000000D+00  0.134654D+00  0.416984D-01 -0.154916D-01
-      3   0.000000D+00  0.000000D+00  0.190930D-02  0.439291D-01  0.134824D+00
-      4   0.000000D+00  0.000000D+00 -0.444425D-01  0.128226D+00 -0.411505D-01
-      5   0.000000D+00  0.000000D+00 -0.208732D+00 -0.646271D-01  0.240160D-01
-      6   0.000000D+00  0.000000D+00 -0.296235D-02 -0.680948D-01 -0.208990D+00
-      7   0.000000D+00  0.000000D+00  0.688815D-01 -0.198768D+00  0.637880D-01
-      8   0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
-      9   0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
-     10   0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
-     11   0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
-     12   0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
-     13   0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
-     14   0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
-     15   0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
-     16   0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
-                31            32            33            34            35 
-      1  -0.677847D+03 -0.677799D+03 -0.677799D+03 -0.677799D+03 -0.677799D+03
-      2   0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
-      3   0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
-      4   0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
-      5   0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
-      6   0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
-      7   0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
-      8   0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
-      9   0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
-     10   0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
-     11   0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
-     12   0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
-     13   0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
-     14   0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
-     15   0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
-     16   0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
-                36            37            38            39            40 
-      1  -0.677799D+03 -0.677767D+03 -0.677767D+03 -0.677767D+03 -0.677767D+03
-      2   0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
-      3   0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
-      4   0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
-      5   0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
-      6   0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
-      7   0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
-      8   0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
-      9   0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
-     10   0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
-     11   0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
-     12   0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
-     13   0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
-     14   0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
-     15   0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
-     16   0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
+                 6 
+      1  -0.678522D+03
+      2   0.173814D+00
+      3  -0.335193D+00
+      4  -0.102303D+00
+      5  -0.181864D+00
+      6   0.350717D+00
+      7   0.107041D+00
+      8   0.000000D+00
+      9   0.000000D+00
+     10   0.000000D+00
+     11   0.000000D+00
+     12   0.000000D+00
+     13   0.000000D+00
+     14   0.000000D+00
+     15   0.000000D+00
+     16   0.000000D+00
 
  Test job not archived.
- 1\1\GINC-N2395\SP\RPBE1PBE TD-FC\Gen\Ca1(2+)\CLIAO25\16-Nov-2022\0\\#p
-  td(50-50,nstates=20) IOp(3/33=1) pop=full nosymm pbe1pbe/gen int=dkh 
- IOp(8/10=90) ExtraLinks(L319)\\Ca2+ ano-rcc-vdz\\2,1\Ca,0,0.,0.,0.\\Ve
- rsion=EM64L-G16RevC.01\HF=-679.6145531\RMSD=2.550e-10\PG=OH [O(Ca1)]\\
- @
+ 1\1\GINC-N2196\SP\RPBE1PBE TD-FC\Gen\Ca1(2+)\CLIAO25\17-Nov-2022\0\\#p
+  td(50-50,nstates=3) IOp(3/33=1) pop=full nosymm pbe1pbe/gen int=dkh I
+ Op(8/10=90) ExtraLinks(L319)\\Ca2+ ano-rcc-vdz\\2,1\Ca,0,0.,0.,0.\\Ver
+ sion=EM64L-G16RevC.01\HF=-679.6145531\RMSD=2.550e-10\PG=OH [O(Ca1)]\\@
 
 
- TO DRY ONE'S EYES AND LAUGH AT A FALL
- AND BAFFLED, GET UP AND BEGIN AGAIN.
-           R. BROWNING
- Job cpu time:       0 days  0 hours  2 minutes 40.3 seconds.
- Elapsed time:       0 days  0 hours  0 minutes  7.0 seconds.
- File lengths (MBytes):  RWF=     72 Int=      0 D2E=      0 Chk=      2 Scr=      1
- Normal termination of Gaussian 16 at Wed Nov 16 17:23:12 2022.
+ THE MOST BEAUTIFUL EXPERIENCE WE CAN HAVE IS THE MYSTERIOUS.
+ IT IS THE FUNDAMENTAL EMOTION WHICH STANDS AT AT THE CRADLE 
+ OF TRUE ART AND TRUE SCIENCE.
+
+                                    -- ALBERT EINSTEIN
+ Job cpu time:       0 days  0 hours  1 minutes  7.3 seconds.
+ Elapsed time:       0 days  0 hours  0 minutes  3.0 seconds.
+ File lengths (MBytes):  RWF=     72 Int=      0 D2E=      0 Chk=      1 Scr=      1
+ Normal termination of Gaussian 16 at Thu Nov 17 11:34:09 2022.

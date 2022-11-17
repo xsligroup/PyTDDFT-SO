@@ -1,7 +1,7 @@
 %mem=92GB
 %nprocshared=28
 %rwf=ca2+.rwf
-#p td(50-50,nstates=20) IOp(3/33=1) pop=full nosymm pbe1pbe/gen int=dkh IOp(8/10=90) ExtraLinks(L319)
+#p td(50-50,nstates=3) IOp(3/33=1) pop=full nosymm pbe1pbe/gen int=dkh IOp(8/10=90) ExtraLinks(L319)
 
 Ca2+ ano-rcc-vdz
 
